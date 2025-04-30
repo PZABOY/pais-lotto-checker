@@ -1,4 +1,4 @@
-/* === Global === */
+/* === Global Styles === */
 body {
   margin: 0;
   padding: 0;
@@ -11,7 +11,7 @@ body {
   min-height: 100vh;
 }
 
-/* === Main container === */
+/* === Container === */
 .container {
   width: 100%;
   max-width: 500px;
@@ -22,7 +22,7 @@ body {
   box-shadow: 0 0 10px rgba(0,0,0,0.4);
 }
 
-/* === Title & subtitle === */
+/* === Title and Subtitle === */
 h1 {
   text-align: center;
   font-size: 1.8em;
@@ -38,7 +38,7 @@ h1 {
   font-style: italic;
 }
 
-/* === Form === */
+/* === Form Layout === */
 form {
   display: flex;
   flex-direction: column;
@@ -51,39 +51,35 @@ label {
   margin-bottom: 0.3em;
 }
 
-/* === Input groups === */
+/* === Input Group === */
 .input-group {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
+/* Six-number input layout */
 .input-group.row {
-  flex-direction: row;
+  display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   gap: 10px;
+  justify-content: space-between;
 }
 
-/* Main number inputs (1–37) */
 .input-group.row input {
-  flex: 1 1 30%;
-  min-width: 80px;
+  flex: 1 1 15%;
+  min-width: 50px;
+  max-width: 80px;
 }
 
-/* Strong number input (1–7) */
-.input-group:not(.row) input {
-  width: 100%;
-}
-
-/* Responsive fix for small screens */
-@media (max-width: 480px) {
+/* Responsive: 3×2 layout on mobile */
+@media (max-width: 600px) {
   .input-group.row input {
-    flex: 1 1 45%;
+    flex: 1 1 30%;
   }
 }
 
-/* === Input styling === */
+/* === Input Styling === */
 input[type="number"] {
   padding: 0.7em;
   font-size: 1em;
@@ -100,7 +96,7 @@ input[type="number"]:focus {
   outline: none;
 }
 
-/* === Submit button === */
+/* === Submit Button === */
 button[type="submit"] {
   background-color: #3498db;
   color: white;
@@ -117,7 +113,7 @@ button:hover {
   background-color: #2980b9;
 }
 
-/* === Result message === */
+/* === Result Display === */
 #result {
   margin-top: 1.5em;
   text-align: center;
@@ -126,7 +122,7 @@ button:hover {
   color: #f1f1f1;
 }
 
-/* === Share section === */
+/* === Share Section === */
 .share {
   margin-top: 2em;
   text-align: center;
@@ -184,7 +180,7 @@ footer a:hover {
   text-decoration: underline;
 }
 
-/* === Optional: highlight match === */
+/* === Optional Match Highlight === */
 .match {
   color: #ffea00;
   text-shadow: 0 0 8px #ffea00, 0 0 14px #f80, 0 0 18px #ff00cc;
