@@ -1,0 +1,14 @@
+
+{
+  "name": "pais-lotto-checker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "xlsx": "^0.18.5",
+    "node-cron": "^3.0.2"
+  }
+}
