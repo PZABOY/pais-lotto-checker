@@ -1,4 +1,4 @@
-/* === Global layout === */
+/* === Global === */
 body {
   margin: 0;
   padding: 0;
@@ -11,7 +11,7 @@ body {
   min-height: 100vh;
 }
 
-/* === Container styling === */
+/* === Main container === */
 .container {
   width: 100%;
   max-width: 500px;
@@ -22,7 +22,7 @@ body {
   box-shadow: 0 0 10px rgba(0,0,0,0.4);
 }
 
-/* === Title & Subtitle === */
+/* === Title & subtitle === */
 h1 {
   text-align: center;
   font-size: 1.8em;
@@ -38,7 +38,7 @@ h1 {
   font-style: italic;
 }
 
-/* === Form structure === */
+/* === Form === */
 form {
   display: flex;
   flex-direction: column;
@@ -51,25 +51,40 @@ label {
   margin-bottom: 0.3em;
 }
 
-/* === Input fields === */
+/* === Input groups === */
 .input-group {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
-/* Inputs in one horizontal row */
 .input-group.row {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 8px;
+  gap: 10px;
 }
 
-/* Input styling */
+/* Main number inputs (1–37) */
+.input-group.row input {
+  flex: 1 1 30%;
+  min-width: 80px;
+}
+
+/* Strong number input (1–7) */
+.input-group:not(.row) input {
+  width: 100%;
+}
+
+/* Responsive fix for small screens */
+@media (max-width: 480px) {
+  .input-group.row input {
+    flex: 1 1 45%;
+  }
+}
+
+/* === Input styling === */
 input[type="number"] {
-  flex: 1;
-  min-width: 40px;
   padding: 0.7em;
   font-size: 1em;
   background-color: #2a2a2a;
@@ -102,7 +117,7 @@ button:hover {
   background-color: #2980b9;
 }
 
-/* === Result display === */
+/* === Result message === */
 #result {
   margin-top: 1.5em;
   text-align: center;
@@ -169,7 +184,7 @@ footer a:hover {
   text-decoration: underline;
 }
 
-/* === Optional glow on match === */
+/* === Optional: highlight match === */
 .match {
   color: #ffea00;
   text-shadow: 0 0 8px #ffea00, 0 0 14px #f80, 0 0 18px #ff00cc;
