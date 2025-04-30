@@ -1,86 +1,76 @@
-/* === Global Styles === */
+/* === Global layout === */
 body {
   margin: 0;
   padding: 0;
   background-color: #121212;
   color: #f5f5f5;
   font-family: 'Segoe UI', sans-serif;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-height: 100vh;
+  justify-content: center;
 }
 
-/* === Container === */
+/* === Container box === */
 .container {
-  width: 100%;
+  width: 90%;
   max-width: 500px;
   padding: 2em;
-  margin-top: 3em;
   background-color: #1e1e1e;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0,0,0,0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-/* === Title and Subtitle === */
-h1 {
+/* === Headings and text === */
+h1, .funny, label, #result, .share p, footer {
   text-align: center;
+  width: 100%;
+}
+
+h1 {
   font-size: 1.8em;
   margin-bottom: 0.3em;
-  color: #ffffff;
 }
 
 .funny {
-  text-align: center;
   font-size: 0.95em;
   color: #bbb;
   margin-bottom: 2em;
   font-style: italic;
 }
 
-/* === Form Layout === */
-form {
-  display: flex;
-  flex-direction: column;
-  gap: 1.2em;
-}
-
 label {
   font-size: 0.9em;
   color: #ccc;
+  margin-top: 1em;
   margin-bottom: 0.3em;
 }
 
-/* === Input Group === */
-.input-group {
+/* === Form structure === */
+form {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  align-items: center;
+  width: 100%;
 }
 
-/* Six-number input layout */
-.input-group.row {
+/* === Lotto number input row === */
+.input-row {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 10px;
-  justify-content: space-between;
+  margin-top: 0.5em;
 }
 
-.input-group.row input {
-  flex: 1 1 15%;
-  min-width: 50px;
+.input-row input {
+  width: calc(100% / 3 - 10px);
   max-width: 80px;
-}
-
-/* Responsive: 3×2 layout on mobile */
-@media (max-width: 600px) {
-  .input-group.row input {
-    flex: 1 1 30%;
-  }
-}
-
-/* === Input Styling === */
-input[type="number"] {
+  min-width: 55px;
   padding: 0.7em;
   font-size: 1em;
   background-color: #2a2a2a;
@@ -88,16 +78,32 @@ input[type="number"] {
   border: 1px solid #444;
   border-radius: 5px;
   text-align: center;
-  transition: border-color 0.3s ease;
+  box-sizing: border-box;
 }
 
-input[type="number"]:focus {
-  border-color: #888;
-  outline: none;
+@media (max-width: 480px) {
+  .input-row input {
+    width: calc(100% / 2.5 - 10px);
+  }
 }
 
-/* === Submit Button === */
+/* === Strong number input === */
+input#strong {
+  margin-top: 0.5em;
+  width: 100%;
+  padding: 0.7em;
+  font-size: 1em;
+  background-color: #2a2a2a;
+  color: #fff;
+  border: 1px solid #444;
+  border-radius: 5px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+/* === Submit button === */
 button[type="submit"] {
+  margin-top: 1.5em;
   background-color: #3498db;
   color: white;
   padding: 0.8em;
@@ -106,6 +112,7 @@ button[type="submit"] {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  width: 100%;
   transition: background 0.2s ease;
 }
 
@@ -113,16 +120,15 @@ button:hover {
   background-color: #2980b9;
 }
 
-/* === Result Display === */
+/* === Result output === */
 #result {
   margin-top: 1.5em;
-  text-align: center;
   font-size: 1.1em;
   font-weight: 500;
   color: #f1f1f1;
 }
 
-/* === Share Section === */
+/* === Share section === */
 .share {
   margin-top: 2em;
   text-align: center;
@@ -163,12 +169,13 @@ button:hover {
 
 /* === Footer === */
 footer {
-  margin-top: auto;
+  margin-top: 2em;
   padding: 1em;
   font-size: 0.85em;
   color: #777;
   text-align: center;
   border-top: 1px solid #333;
+  width: 100%;
 }
 
 footer a {
@@ -180,7 +187,7 @@ footer a:hover {
   text-decoration: underline;
 }
 
-/* === Optional Match Highlight === */
+/* === Match highlight animation (optional) === */
 .match {
   color: #ffea00;
   text-shadow: 0 0 8px #ffea00, 0 0 14px #f80, 0 0 18px #ff00cc;

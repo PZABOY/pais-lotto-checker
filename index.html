@@ -12,9 +12,8 @@
     <p class="funny">אולי אתה מיליונר ולא ידעת. אולי רק הפסדת שוב. בוא נגלה 🎲</p>
 
     <form id="lotto-form">
-      <!-- Main numbers in one line -->
       <label>הכנס 6 מספרים בין 1–37:</label>
-      <div class="input-group row">
+      <div class="input-row">
         <input type="number" min="1" max="37" required />
         <input type="number" min="1" max="37" required />
         <input type="number" min="1" max="37" required />
@@ -23,11 +22,8 @@
         <input type="number" min="1" max="37" required />
       </div>
 
-      <!-- Strong number below -->
       <label>מספר חזק (1–7):</label>
-      <div class="input-group">
-        <input type="number" id="strong" min="1" max="7" required />
-      </div>
+      <input type="number" id="strong" min="1" max="7" required />
 
       <button type="submit">בדוק אותי 🧠</button>
     </form>
@@ -48,7 +44,6 @@
         </a>
         <a href="#" onclick="copyLink()" class="icon copy" title="העתק קישור">
           <img src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/icons/link.svg" alt="Copy" />
-
         </a>
       </div>
     </div>
