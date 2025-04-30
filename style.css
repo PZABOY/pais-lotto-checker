@@ -1,71 +1,182 @@
+/* === Global layout === */
 body {
   margin: 0;
-  font-family: sans-serif;
-  background: #f4f4f4;
-  color: #222;
+  padding: 0;
+  background-color: #121212;
+  color: #f5f5f5;
+  font-family: 'Segoe UI', sans-serif;
   display: flex;
   flex-direction: column;
+  align-items: center;
   min-height: 100vh;
 }
 
+/* === Container styling === */
 .container {
-  max-width: 600px;
-  margin: auto;
+  width: 100%;
+  max-width: 500px;
   padding: 2em;
-  background: #fff;
-  border-radius: 1em;
-  box-shadow: 0 0 15px rgba(0,0,0,0.1);
-  text-align: center;
+  margin-top: 3em;
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
 }
 
+/* === Title & Subtitle === */
 h1 {
-  color: #2c3e50;
+  text-align: center;
+  font-size: 1.8em;
+  margin-bottom: 0.3em;
+  color: #ffffff;
 }
 
 .funny {
-  color: #555;
-  margin-bottom: 1.5em;
-}
-
-.inputs {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
-  margin: 1em 0;
-}
-
-input {
-  padding: 0.6em;
-  font-size: 1em;
   text-align: center;
-  border: 1px solid #ccc;
-  border-radius: 0.5em;
+  font-size: 0.95em;
+  color: #bbb;
+  margin-bottom: 2em;
+  font-style: italic;
 }
 
-button {
-  background: #27ae60;
-  color: white;
-  padding: 0.7em 1.5em;
+/* === Form structure === */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2em;
+}
+
+label {
+  font-size: 0.9em;
+  color: #ccc;
+  margin-bottom: 0.3em;
+}
+
+/* === Input fields === */
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Inputs in one horizontal row */
+.input-group.row {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+/* Input styling */
+input[type="number"] {
+  flex: 1;
+  min-width: 40px;
+  padding: 0.7em;
   font-size: 1em;
+  background-color: #2a2a2a;
+  color: #fff;
+  border: 1px solid #444;
+  border-radius: 5px;
+  text-align: center;
+  transition: border-color 0.3s ease;
+}
+
+input[type="number"]:focus {
+  border-color: #888;
+  outline: none;
+}
+
+/* === Submit button === */
+button[type="submit"] {
+  background-color: #3498db;
+  color: white;
+  padding: 0.8em;
+  font-size: 1em;
+  font-weight: bold;
   border: none;
-  border-radius: 0.7em;
+  border-radius: 5px;
   cursor: pointer;
-  margin-top: 1em;
+  transition: background 0.2s ease;
 }
 
 button:hover {
-  background: #219150;
+  background-color: #2980b9;
 }
 
+/* === Result display === */
+#result {
+  margin-top: 1.5em;
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: 500;
+  color: #f1f1f1;
+}
+
+/* === Share section === */
 .share {
   margin-top: 2em;
+  text-align: center;
 }
 
+.share-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5em;
+  margin-top: 1em;
+}
+
+.share-icons .icon {
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2a2a2a;
+  border-radius: 50%;
+  transition: transform 0.2s ease;
+}
+
+.share-icons .icon img {
+  width: 22px;
+  height: 22px;
+  filter: invert(1);
+}
+
+.share-icons .icon:hover {
+  transform: scale(1.2);
+}
+
+.icon.whatsapp { background-color: #25D366; }
+.icon.facebook { background-color: #1877F2; }
+.icon.twitter  { background-color: #1DA1F2; }
+.icon.copy     { background-color: #555; }
+
+/* === Footer === */
 footer {
   margin-top: auto;
-  text-align: center;
   padding: 1em;
-  background: #222;
-  color: #aaa;
-  font-size: 0.9em;
+  font-size: 0.85em;
+  color: #777;
+  text-align: center;
+  border-top: 1px solid #333;
+}
+
+footer a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* === Optional glow on match === */
+.match {
+  color: #ffea00;
+  text-shadow: 0 0 8px #ffea00, 0 0 14px #f80, 0 0 18px #ff00cc;
+  animation: pulse 1.2s infinite alternate;
+}
+
+@keyframes pulse {
+  from { transform: scale(1); }
+  to { transform: scale(1.04); }
 }
