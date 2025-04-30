@@ -1,1 +1,1752 @@
-[]
+[
+  {},
+  {
+    "_0": "<!DOCTYPE html>"
+  },
+  {},
+  {
+    "_0": "<html data-wf-page=\"5be180d2fdfeac0e07d3ab4f\" data-wf-site=\"5a92c9e78433cb00017fa4e3\">"
+  },
+  {
+    "_0": "<head>"
+  },
+  {
+    "_0": "    <meta name=\"robots\" content=\"noindex\">"
+  },
+  {
+    "_0": "    <meta charset=\"utf-8\">"
+  },
+  {
+    "_0": "    <title>מפעל הפיס | דף לא נמצא</title>"
+  },
+  {
+    "_0": "    <meta name=\"DESCRIPTION\" content=\"מפעל הפיס הוא גוף ציבורי בעל זיכיון בלעדי לעריכת הגרלות ומשחקי מזל בישראל: לוטו, צ'אנס, פיס 777, 123, KENO, חישגד, חישגד אלקטרוני ומנוי פיס.\" />"
+  },
+  {
+    "_0": "    <meta name=\"KEYWORDS\" content=\"מפעל, פיס, הפיס, הגרלה, הגרלות, הימורים, כסף, חלום, חלומות, עשיר, עושר, לוטו, צנס, צ'אנס, צאנס, חישגד\" />"
+  },
+  {
+    "_0": "    "
+  },
+  {},
+  {},
+  {
+    "_0": "  <meta charset=\"utf-8\">"
+  },
+  {
+    "_0": "  <meta content=\"width=device-width, initial-scale=1\" name=\"viewport\">"
+  },
+  {
+    "_0": "  <meta content=\"Webflow\" name=\"generator\">"
+  },
+  {},
+  {
+    "_0": "  <link rel=\"home\" id=\"ApplicationRoot\" href=\"/\" />"
+  },
+  {},
+  {
+    "_0": "  <link href=\"/css/normalize.css?v=02\" rel=\"stylesheet\" type=\"text/css\">"
+  },
+  {
+    "_0": "  <link href=\"/css/webflow.css?v=02\" rel=\"stylesheet\" type=\"text/css\">"
+  },
+  {
+    "_0": "  <link href=\"/css/pais.webflow.css?v=02\" rel=\"stylesheet\" type=\"text/css\">"
+  },
+  {},
+  {
+    "_0": "  <link href=\"/include/styles.css?v=02\" rel=\"stylesheet\" type=\"text/css\">"
+  },
+  {
+    "_0": "  "
+  },
+  {
+    "_0": "  <script src=\"/js/webfont%201.4.7.js\"></script>"
+  },
+  {
+    "_0": "  <script type=\"text/javascript\">WebFont.load({ google: { families: [\"Varela Round:400\"",
+    "_1": " \"Oswald:200,300,400,500,600,700\"",
+    "_2": " \"Rubik:300,300italic,regular,italic,500,500italic,700,700italic,900,900italic:hebrew,latin\"",
+    "_3": " \"Assistant:200,300,regular,600,700,800:latin,hebrew\"",
+    "_4": " \"Alef:regular,700:latin,hebrew\"] } });</script>"
+  },
+  {
+    "_0": "  <!-- [if lt IE 9]><script src=\"https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js\" type=\"text/javascript\"></script><![endif] -->"
+  },
+  {
+    "_0": "  <script type=\"text/javascript\">!function (o, c) { var n = c.documentElement, t = \" w-mod-\"; n.className += t + \"js\"",
+    "_1": " (\"ontouchstart\" in o || o.DocumentTouch && c instanceof DocumentTouch) && (n.className += t + \"touch\") }(window, document);</script>"
+  },
+  {
+    "_0": "  <link href=\"/images/pais_favicon.png\" rel=\"shortcut icon\" type=\"image/png\">"
+  },
+  {
+    "_0": "  <link href=\"/images/pais_favicon.png\" rel=\"apple-touch-icon\" type=\"image/png\">"
+  },
+  {
+    "_0": "  <!--script type=\"text/javascript\" src=\"/    ?v=02\"></!--script-->"
+  },
+  {
+    "_0": "  "
+  },
+  {
+    "_0": "  <link rel=\"stylesheet\" href=\"/include/jquery-ui-1.14.0.css\">"
+  },
+  {
+    "_0": " "
+  },
+  {
+    "_0": "<!-- Google Tag Manager -->"
+  },
+  {
+    "_0": "<script>(function (w",
+    "_1": " d",
+    "_2": " s",
+    "_3": " l",
+    "_4": " i) {"
+  },
+  {
+    "_0": "    w[l] = w[l] || []; w[l].push({"
+  },
+  {
+    "_0": "        'gtm.start':"
+  },
+  {
+    "_0": "            new Date().getTime()",
+    "_1": " event: 'gtm.js'"
+  },
+  {
+    "_0": "    }); var f = d.getElementsByTagName(s)[0]",
+    "_1": ""
+  },
+  {
+    "_0": "        j = d.createElement(s)",
+    "_1": " dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src ="
+  },
+  {
+    "_0": "            'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j",
+    "_1": " f);"
+  },
+  {
+    "_0": "    })(window",
+    "_1": " document",
+    "_2": " 'script'",
+    "_3": " 'dataLayer'",
+    "_4": " 'GTM-5B7CH6');</script>"
+  },
+  {
+    "_0": "<!-- End Google Tag Manager -->"
+  },
+  {},
+  {
+    "_0": "    <link rel=\"home\" id=\"ApplicationRoot\" href=\"/\" />"
+  },
+  {
+    "_0": "</head>"
+  },
+  {
+    "_0": "<body>"
+  },
+  {},
+  {},
+  {},
+  {
+    "_0": "<!-- Google Tag Manager (noscript) -->"
+  },
+  {
+    "_0": "<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-5B7CH6\""
+  },
+  {
+    "_0": "height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>"
+  },
+  {
+    "_0": "<!-- End Google Tag Manager (noscript) -->"
+  },
+  {},
+  {},
+  {},
+  {
+    "_0": "<style>"
+  },
+  {
+    "_0": "    /* access navigation links */"
+  },
+  {
+    "_0": "    #accessNav {"
+  },
+  {
+    "_0": "        color: #333;"
+  },
+  {
+    "_0": "        width: 100%;"
+  },
+  {
+    "_0": "        min-height: 0px;"
+  },
+  {
+    "_0": "        margin: 0 auto;"
+  },
+  {
+    "_0": "        text-align: center;"
+  },
+  {
+    "_0": "        position: relative;"
+  },
+  {
+    "_0": "        z-index: 1000000;"
+  },
+  {
+    "_0": "    }"
+  },
+  {},
+  {
+    "_0": "        #accessNav h5 {"
+  },
+  {
+    "_0": "            margin: 5px 0 0 5px;"
+  },
+  {
+    "_0": "            font-weight: normal;"
+  },
+  {
+    "_0": "            z-index: 1000000;"
+  },
+  {
+    "_0": "        }"
+  },
+  {},
+  {
+    "_0": "        #accessNav ul {"
+  },
+  {
+    "_0": "            list-style: none;"
+  },
+  {
+    "_0": "            margin: 0;"
+  },
+  {
+    "_0": "            padding: 0;"
+  },
+  {
+    "_0": "            z-index: 1000000;"
+  },
+  {
+    "_0": "        }"
+  },
+  {},
+  {
+    "_0": "            #accessNav ul li {"
+  },
+  {
+    "_0": "                float: right;"
+  },
+  {
+    "_0": "                display: inline;"
+  },
+  {
+    "_0": "                direction: ltr;"
+  },
+  {
+    "_0": "                z-index: 1000000;"
+  },
+  {
+    "_0": "            }"
+  },
+  {},
+  {
+    "_0": "                #accessNav ul li a {"
+  },
+  {
+    "_0": "                    color: #000000;"
+  },
+  {
+    "_0": "                    z-index: 1000000;"
+  },
+  {
+    "_0": "                }"
+  },
+  {},
+  {
+    "_0": "    .offscreen {"
+  },
+  {
+    "_0": "        display: block;"
+  },
+  {
+    "_0": "        overflow: hidden;"
+  },
+  {
+    "_0": "        left: auto;"
+  },
+  {
+    "_0": "        position: absolute;"
+  },
+  {
+    "_0": "        direction: ltr;"
+  },
+  {
+    "_0": "        top: -9999px;"
+  },
+  {
+    "_0": "        z-index: 1000000;"
+  },
+  {
+    "_0": "    }"
+  },
+  {},
+  {
+    "_0": "    a.access {"
+  },
+  {
+    "_0": "        height: 1px;"
+  },
+  {
+    "_0": "        left: 0px;"
+  },
+  {
+    "_0": "        position: absolute;"
+  },
+  {
+    "_0": "        top: -9999px;"
+  },
+  {
+    "_0": "        /*width: 1px;*/"
+  },
+  {
+    "_0": "        width: auto;"
+  },
+  {
+    "_0": "        white-space: nowrap;"
+  },
+  {
+    "_0": "        font-size: 12pt;"
+  },
+  {
+    "_0": "        z-index: 1000000;"
+  },
+  {
+    "_0": "    }"
+  },
+  {},
+  {
+    "_0": "        a.access:focus",
+    "_1": " a.access:active {"
+  },
+  {
+    "_0": "            background: yellow none repeat scroll 0 0;"
+  },
+  {
+    "_0": "            height: auto;"
+  },
+  {
+    "_0": "            left: 0px;"
+  },
+  {
+    "_0": "            padding: 8px;"
+  },
+  {
+    "_0": "            position: absolute;"
+  },
+  {
+    "_0": "            top: -5px;"
+  },
+  {
+    "_0": "            z-index: 1000000;"
+  },
+  {
+    "_0": "            text-align: center;"
+  },
+  {
+    "_0": "            font-weight: bold;"
+  },
+  {
+    "_0": "            direction: rtl;"
+  },
+  {
+    "_0": "            z-index: 1000000;"
+  },
+  {
+    "_0": "        }"
+  },
+  {},
+  {
+    "_0": "            a.access:focus span",
+    "_1": " a.access:active span {"
+  },
+  {
+    "_0": "                direction: ltr;"
+  },
+  {
+    "_0": "                z-index: 1000000;"
+  },
+  {
+    "_0": "            }"
+  },
+  {
+    "_0": "</style>"
+  },
+  {
+    "_0": "<div align=\"center\" id=\"accessBlock\">"
+  },
+  {
+    "_0": "    <center>"
+  },
+  {
+    "_0": "\t\t<div id=\"accessNav\">"
+  },
+  {
+    "_0": "\t\t\t\t<h5 class=\"offscreen\">"
+  },
+  {
+    "_0": "\t\t\t\t\tתפריט נגישות"
+  },
+  {
+    "_0": "\t\t\t\t</h5>"
+  },
+  {
+    "_0": "\t\t\t\t<ul style=\"border:0px solid red\">"
+  },
+  {
+    "_0": "                    <li>"
+  },
+  {
+    "_0": "<a id=\"accessMenu\" href=\"#\" class=\"access\" aria-label=\"פתח תפריט נגישות\" title=\"פתח תפריט נגישות\">"
+  },
+  {
+    "_0": "פתח תפריט נגישות</a></li>"
+  },
+  {},
+  {
+    "_0": "                    "
+  },
+  {
+    "_0": "                    "
+  },
+  {
+    "_0": "\t\t\t\t\t<li>"
+  },
+  {
+    "_0": "\t\t\t\t\t\t<a id=\"menu\" href=\"#mainContent\" class=\"access\">"
+  },
+  {
+    "_0": "\t\t\t\t\t\t\tדלג לתוכן ראשי</a>"
+  },
+  {
+    "_0": "\t\t\t\t\t</li>"
+  },
+  {
+    "_0": "\t\t\t\t\t<li>"
+  },
+  {
+    "_0": "\t\t\t\t\t\t<a id=\"footer\" href=\"#footerContent\" class=\"access\">"
+  },
+  {
+    "_0": "\t\t\t\t\t\t\tדלג לקישורים בתחתית העמוד</a>"
+  },
+  {
+    "_0": "\t\t\t\t\t</li>"
+  },
+  {},
+  {},
+  {
+    "_0": "                    "
+  },
+  {
+    "_0": "\t\t\t\t</ul>"
+  },
+  {
+    "_0": "\t\t </div>"
+  },
+  {
+    "_0": "\t</center>"
+  },
+  {
+    "_0": "</div>"
+  },
+  {},
+  {},
+  {
+    "_0": "  <div class=\"top_section w-clearfix\" role=\"banner\">"
+  },
+  {
+    "_0": "    <a href=\"javascript:void(0)\" dir=\"ltr\" id=\"openIcon\" onclick=\"toggleSearch()\" class=\"search_mobile w-hidden-main\" aria-label=\"לחץ לחיפוש\"  aria-live=\"polite\"><img id=\"openImg\" src=\"/images/top_ic_search.svg\" alt=\"></a>"
+  },
+  {
+    "_0": "    <div data-collapse=\"medium\" data-animation=\"default\" data-duration=\"400\" class=\"navbar_mobile w-hidden-main w-nav\">"
+  },
+  {
+    "_0": "      <div class=\"nav_mobile_container w-container\">"
+  },
+  {
+    "_0": "        <nav role=\"navigation\" class=\"nav_mobile_menu w-nav-menu\">"
+  },
+  {
+    "_0": "            <ul class=\"top_links_list w-list-unstyled\">"
+  },
+  {
+    "_0": "                <li class=\"w-clearfix\"><a href=\"/\" class=\"top_link\">ראשי</a></li>"
+  },
+  {
+    "_0": "                "
+  },
+  {
+    "_0": "                        <li class=\"w-clearfix\"><a href=\"/info/careers.aspx\" target=\"_self\" class=\"top_link\">דרושים</a></li>"
+  },
+  {
+    "_0": "                    "
+  },
+  {
+    "_0": "                        <li class=\"w-clearfix\"><a href=\"/info/About.aspx\" target=\"_self\" class=\"top_link\">אודות</a></li>"
+  },
+  {
+    "_0": "                    "
+  },
+  {
+    "_0": "                        <li class=\"w-clearfix\"><a href=\"/info/Thank-to.aspx\" target=\"_self\" class=\"top_link\">בזכות הפיס</a></li>"
+  },
+  {
+    "_0": "                    "
+  },
+  {
+    "_0": "                        <li class=\"w-clearfix\"><a href=\"/news\" target=\"_self\" class=\"top_link\">חדשות</a></li>"
+  },
+  {
+    "_0": "                    "
+  },
+  {
+    "_0": "                        <li class=\"w-clearfix\"><a href=\"/info/Franchisees.aspx\" target=\"_self\" class=\"top_link\">נקודות מכירה</a></li>"
+  },
+  {
+    "_0": "                    "
+  },
+  {
+    "_0": "                        <li class=\"w-clearfix\"><a href=\"/tenders\" target=\"_self\" class=\"top_link\">רכש ומכרזים</a></li>"
+  },
+  {
+    "_0": "                    "
+  },
+  {
+    "_0": "                        <li class=\"w-clearfix\"><a href=\"/contactus/contact_us.aspx\" target=\"_self\" class=\"top_link\">צרו קשר</a></li>"
+  },
+  {
+    "_0": "                    "
+  },
+  {
+    "_0": "                        <li class=\"w-clearfix\"><a href=\"https://www.pais.co.il/subscriber/register.aspx\" target=\"_blank\" class=\"top_link\">הצטרפו למנוי פיס</a></li>"
+  },
+  {
+    "_0": "                    "
+  },
+  {
+    "_0": "                        <li class=\"w-clearfix\"><a href=\"https://www.paisplus.co.il/?utm_source=Pais&amp;utm_medium=link&amp;utm_campaign=new_subscription_2019\" target=\"_blank\" class=\"top_link\">הטבות למנויים</a></li>"
+  },
+  {
+    "_0": "                    "
+  },
+  {
+    "_0": "                        <li class=\"w-clearfix\"><a href=\"https://paiszone.pais.co.il\" target=\"_blank\" class=\"top_link last\">אזור אישי למנויי הפיס</a></li>"
+  },
+  {
+    "_0": "                    "
+  },
+  {
+    "_0": "            </ul>"
+  },
+  {
+    "_0": "          "
+  },
+  {
+    "_0": "            "
+  },
+  {},
+  {
+    "_0": "<div class=\"mobile_bar_group w-hidden-main\">"
+  },
+  {
+    "_0": "    <ul class=\"top_categories w-list-unstyled\">"
+  },
+  {
+    "_0": "        <li>"
+  },
+  {
+    "_0": "        <div data-delay=\"0\" class=\"mob_drop_menu w-dropdown\">"
+  },
+  {
+    "_0": "            <div class=\"mob_drop_button w-dropdown-toggle\" tabindex=\"0\"  aria-label=\"פריט 1 - תפריט משחק לוטו\">"
+  },
+  {
+    "_0": "            <div class=\"mob_drop_logo\"><img src=\"/images/Lotto-sml_1.png\" alt=\"לוגו משחק לוטו\"></div>"
+  },
+  {
+    "_0": "            </div>"
+  },
+  {
+    "_0": "            <nav class=\"mob_drop_list loto w-dropdown-list\">"
+  },
+  {
+    "_0": "                <a href=\"/lotto\" class=\"mob_drop_link w-dropdown-link\">ראשי</a>"
+  },
+  {
+    "_0": "                "
+  },
+  {
+    "_0": "                        <a href=\"/info/lotto/About-Lotto.aspx\" target=\"_self\" class=\"mob_drop_link w-dropdown-link \">אודות הלוטו</a>"
+  },
+  {
+    "_0": "                    "
+  },
+  {
+    "_0": "                        <a href=\"/lotto/lottowincheck/lottowininput.aspx\" target=\"_self\" class=\"mob_drop_link w-dropdown-link \">בירור זכייה לוטו</a>"
+  },
+  {
+    "_0": "                    "
+  },
+  {
+    "_0": "                        <a href=\"/lotto/archive.aspx\" target=\"_self\" class=\"mob_drop_link w-dropdown-link \">ארכיון תוצאות</a>"
+  },
+  {
+    "_0": "                    "
+  },
+  {
+    "_0": "                        <a href=\"/info/extra.aspx\" target=\"_self\" class=\"mob_drop_link w-dropdown-link \">EXTRA</a>"
+  },
+  {
+    "_0": "                    "
+  },
+  {
+    "_0": "                        <a href=\"/info/Prices.aspx\" target=\"_self\" class=\"mob_drop_link w-dropdown-link \">מחירים וסיכויי זכייה</a>"
+  },
+  {
+    "_0": "                    "
+  },
+  {
+    "_0": "                        <a href=\"/news/?catid=3\" target=\"_self\" class=\"mob_drop_link w-dropdown-link \">סיפורי זוכים</a>"
+  },
+  {
+    "_0": "                    "
+  },
+  {
+    "_0": "                        <a href=\"/lotto/statistics.aspx\" target=\"_self\" class=\"mob_drop_link w-dropdown-link \">מידע סטטיסטי</a>"
+  },
+  {
+    "_0": "                    "
+  },
+  {
+    "_0": "                        <a href=\"/info/default.aspx?PageId=96\" target=\"_self\" class=\"mob_drop_link w-dropdown-link \">תקנון הגרלת לוטו</a>"
+  },
+  {
+    "_0": "                    "
+  },
+  {
+    "_0": "                        <a href=\"/info/winning_info.aspx\" target=\"_self\" class=\"mob_drop_link w-dropdown-link \">מה עושים כשזוכים?</a>"
+  },
+  {
+    "_0": "                                 "
+  },
+  {
+    "_0": "            </nav>"
+  },
+  {
+    "_0": "        </div>"
+  },
+  {
+    "_0": "        </li>"
+  },
+  {
+    "_0": "        <li>"
+  },
+  {
+    "_0": "        <div data-delay=\"0\" class=\"mob_drop_menu w-dropdown\">"
+  },
+  {
+    "_0": "            <div class=\"mob_drop_button w-dropdown-toggle\" tabindex=\"0\"  aria-label=\"פריט 2 - תפריט משחק צ'אנס\">"
+  },
+  {
+    "_0": "            <div class=\"mob_drop_logo chance\"><img src=\"/images/Chance-sml.png\" alt=\"לוגו משחק צ'אנס\"></div>"
+  },
+  {
+    "_0": "            </div>"
+  },
+  {
+    "_0": "            <nav class=\"mob_drop_list chance chance w-dropdown-list\">"
+  },
+  {
+    "_0": "                <a href=\"/chance\" class=\"mob_drop_link w-dropdown-link\">ראשי</a>"
+  },
+  {
+    "_0": "                "
+  },
+  {
+    "_0": "                        <a href=\"/info/About-Chance.aspx\" target=\"_self\" class=\"mob_drop_link w-dropdown-link \">אודות צ'אנס</a>"
+  },
+  {
+    "_0": "                    "
+  },
+  {
+    "_0": "                        <a href=\"/chance/chancewincheck/chancewininput.aspx\" target=\"_self\" class=\"mob_drop_link w-dropdown-link \">בירור זכייה</a>"
+  },
+  {
+    "_0": "                    "
+  },
+  {
+    "_0": "                        <a href=\"/chance/archive.aspx\" target=\"_self\" class=\"mob_drop_link w-dropdown-link \">ארכיון תוצאות</a>"
+  },
+  {
+    "_0": "                    "
+  },
+  {
+    "_0": "                        <a href=\"/chance/statistics.aspx\" target=\"_self\" class=\"mob_drop_link w-dropdown-link \">מידע סטטיסטי</a>"
+  },
+  {
+    "_0": "                    "
+  },
+  {
+    "_0": "                        <a href=\"/info/default.aspx?PageId=97\" target=\"_self\" class=\"mob_drop_link w-dropdown-link \">תקנון הגרלת צ'אנס</a>"
+  },
+  {
+    "_0": "                    "
+  },
+  {
+    "_0": "                        <a href=\"/info/winning_info.aspx\" target=\"_self\" class=\"mob_drop_link w-dropdown-link \">מה עושים כשזוכים?</a>"
+  },
+  {
+    "_0": "                    "
+  },
+  {
+    "_0": "            </nav>"
+  },
+  {
+    "_0": "        </div>"
+  },
+  {
+    "_0": "        </li>"
+  },
+  {
+    "_0": "        <li>"
+  },
+  {
+    "_0": "        <div data-delay=\"0\" class=\"mob_drop_menu w-dropdown\">"
+  },
+  {
+    "_0": "            <div class=\"mob_drop_button w-dropdown-toggle\" tabindex=\"0\" aria-label=\"פריט 3 - תפריט משחק חישגד\">"
+  },
+  {
+    "_0": "            <div class=\"mob_drop_logo hishgat\"><img src=\"/images/Hishgad-sml.png\" alt=\"לוגו משחק חישגד\"></div>"
+  },
+  {
+    "_0": "            </div>"
+  },
+  {
+    "_0": "            <nav class=\"hishgat mob_drop_list hishgat w-dropdown-list\">"
+  },
+  {
+    "_0": "                <a href=\"/hishgad\" class=\"mob_drop_link w-dropdown-link\">ראשי</a>"
+  },
+  {
+    "_0": "                "
+  },
+  {
+    "_0": "                        <a href=\"/hishgad/\" target=\"_self\" class=\"mob_drop_link w-dropdown-link \">כל הכרטיסים</a>"
+  },
+  {
+    "_0": "                    "
+  },
+  {
+    "_0": "                        <a href=\"/info/hishgad-end-of-sale.aspx\" target=\"_self\" class=\"mob_drop_link w-dropdown-link \">טבלת גמר מכירת כרטיסי חישגד</a>"
+  },
+  {
+    "_0": "                    "
+  },
+  {
+    "_0": "                        <a href=\"/info/hishgad/oldcards.aspx\" target=\"_self\" class=\"mob_drop_link w-dropdown-link \">נוסטלגיה - כרטיסי חישגד ישנים</a>"
+  },
+  {
+    "_0": "                    "
+  },
+  {
+    "_0": "                        <a href=\"/info/hg-tou.aspx\" target=\"_self\" class=\"mob_drop_link w-dropdown-link \">תקנון הגרלת חישגד</a>"
+  },
+  {
+    "_0": "                    "
+  },
+  {
+    "_0": "                        <a href=\"/info/winning_info.aspx\" target=\"_self\" class=\"mob_drop_link w-dropdown-link \">מה עושים כשזוכים?</a>"
+  },
+  {
+    "_0": "                         "
+  },
+  {},
+  {
+    "_0": "            </nav>"
+  },
+  {
+    "_0": "        </div>"
+  },
+  {
+    "_0": "        </li>"
+  },
+  {
+    "_0": "        <li>"
+  },
+  {
+    "_0": "        <div data-delay=\"0\" class=\"mob_drop_menu w-dropdown\">"
+  },
+  {
+    "_0": "            <div class=\"mob_drop_button w-dropdown-toggle\" tabindex=\"0\"  aria-label=\"פריט 4 - תפריט מנוי פיס\">"
+  },
+  {
+    "_0": "            <div class=\"mob_drop_logo members\"><img src=\"/images/Manuy-sml.png\"  alt=\"לוגו מנוי פיס\"></div>"
+  },
+  {
+    "_0": "            </div>"
+  },
+  {
+    "_0": "            <nav class=\"mob_drop_list members w-dropdown-list\">"
+  },
+  {
+    "_0": "                <a href=\"/Subscriber\" class=\"mob_drop_link w-dropdown-link\">ראשי</a>"
+  },
+  {
+    "_0": "                "
+  },
+  {
+    "_0": "                        <a href=\"/subscriber/register.aspx\" target=\"_self\" class=\"mob_drop_link w-dropdown-link subscribe\">בקשת הצטרפות</a>"
+  },
+  {
+    "_0": "                    "
+  },
+  {
+    "_0": "                        <a href=\"/info/About_Subscriber.aspx\" target=\"_self\" class=\"mob_drop_link w-dropdown-link \">אודות</a>"
+  },
+  {
+    "_0": "                    "
+  },
+  {
+    "_0": "                        <a href=\"/info/paisplus.aspx\" target=\"_self\" class=\"mob_drop_link w-dropdown-link \">עולם ההטבות</a>"
+  },
+  {
+    "_0": "                    "
+  },
+  {
+    "_0": "                        <a href=\"/info/Prizes.aspx\" target=\"_self\" class=\"mob_drop_link w-dropdown-link \">סל הפרסים</a>"
+  },
+  {
+    "_0": "                    "
+  },
+  {
+    "_0": "                        <a href=\"/subscriber/archive.aspx\" target=\"_self\" class=\"mob_drop_link w-dropdown-link \">תוצאות הגרלות</a>"
+  },
+  {
+    "_0": "                    "
+  },
+  {
+    "_0": "                        <a href=\"/Subscriber/inspection/SubCheckInput.aspx\" target=\"_self\" class=\"mob_drop_link w-dropdown-link \">בירור זכייה</a>"
+  },
+  {
+    "_0": "                    "
+  },
+  {
+    "_0": "                        <a href=\"/info/mpais-faq.aspx\" target=\"_self\" class=\"mob_drop_link w-dropdown-link \">שאלות ותשובות</a>"
+  },
+  {
+    "_0": "                    "
+  },
+  {
+    "_0": "                        <a href=\"https://paiszone.pais.co.il\" target=\"_blank\" class=\"mob_drop_link w-dropdown-link subscribe\">אזור אישי</a>"
+  },
+  {
+    "_0": "                    "
+  },
+  {
+    "_0": "                        <a href=\"/info/arela-called-me.aspx\" target=\"_self\" class=\"mob_drop_link w-dropdown-link \">אראלה</a>"
+  },
+  {
+    "_0": "                    "
+  },
+  {
+    "_0": "                        <a href=\"/info/Update_info.aspx\" target=\"_self\" class=\"mob_drop_link w-dropdown-link \">עדכון פרטים</a>"
+  },
+  {
+    "_0": "                    "
+  },
+  {
+    "_0": "                        <a href=\"/info/Policy-Notes.aspx\" target=\"_self\" class=\"mob_drop_link w-dropdown-link \">תקנון</a>"
+  },
+  {
+    "_0": "                         "
+  },
+  {
+    "_0": "            </nav>"
+  },
+  {
+    "_0": "        </div>"
+  },
+  {
+    "_0": "        </li>"
+  },
+  {
+    "_0": "        <li>"
+  },
+  {
+    "_0": "        <div data-delay=\"0\" class=\"mob_drop_menu w-dropdown\">"
+  },
+  {
+    "_0": "            <div class=\"mob_drop_button w-dropdown-toggle\" tabindex=\"0\"  aria-label=\"פריט 5 - תפריט משחק 777\">"
+  },
+  {
+    "_0": "            <div class=\"mob_drop_logo _777\"><img src=\"/images/777-sml.png\"  alt=\"לוגו משחק 777\"></div>"
+  },
+  {
+    "_0": "            </div>"
+  },
+  {
+    "_0": "            <nav class=\"mob_drop_list _777 w-dropdown-list\">"
+  },
+  {
+    "_0": "                <a href=\"/777\" class=\"mob_drop_link w-dropdown-link\">ראשי</a>"
+  },
+  {
+    "_0": "                "
+  },
+  {
+    "_0": "                        <a href=\"/info/About777.aspx\" target=\"_self\" class=\"mob_drop_link w-dropdown-link \">אודות פיס 777</a>"
+  },
+  {
+    "_0": "                    "
+  },
+  {
+    "_0": "                        <a href=\"/777/777wincheck/777wininput.aspx\" target=\"_self\" class=\"mob_drop_link w-dropdown-link \">בירור זכייה</a>"
+  },
+  {
+    "_0": "                    "
+  },
+  {
+    "_0": "                        <a href=\"/777/archive.aspx\" target=\"_self\" class=\"mob_drop_link w-dropdown-link \">ארכיון תוצאות</a>"
+  },
+  {
+    "_0": "                    "
+  },
+  {
+    "_0": "                        <a href=\"/777/statistics.aspx\" target=\"_self\" class=\"mob_drop_link w-dropdown-link \">מידע סטטיסטי</a>"
+  },
+  {
+    "_0": "                    "
+  },
+  {
+    "_0": "                        <a href=\"/info/default.aspx?PageId=95\" target=\"_self\" class=\"mob_drop_link w-dropdown-link \">תקנון הגרלת פיס 777</a>"
+  },
+  {
+    "_0": "                    "
+  },
+  {
+    "_0": "                        <a href=\"/info/winning_info.aspx\" target=\"_self\" class=\"mob_drop_link w-dropdown-link \">מה עושים כשזוכים?</a>"
+  },
+  {
+    "_0": "                         "
+  },
+  {},
+  {
+    "_0": "            </nav>"
+  },
+  {
+    "_0": "        </div>"
+  },
+  {
+    "_0": "        </li>"
+  },
+  {
+    "_0": "        <li>"
+  },
+  {
+    "_0": "        <div data-delay=\"0\" class=\"mob_drop_menu w-dropdown\">"
+  },
+  {
+    "_0": "            <div class=\"mob_drop_button w-dropdown-toggle\" tabindex=\"0\"  aria-label=\"פריט 56 - תפריט משחק 123\">"
+  },
+  {
+    "_0": "            <div class=\"mob_drop_logo _123\"><img src=\"/images/123-sml.png\"  alt=\"לוגו משחק 123\"></div>"
+  },
+  {
+    "_0": "            </div>"
+  },
+  {
+    "_0": "            <nav class=\"mob_drop_list _123 w-dropdown-list\">"
+  },
+  {
+    "_0": "                <a href=\"/123\" class=\"mob_drop_link w-dropdown-link\">ראשי</a>"
+  },
+  {
+    "_0": "                "
+  },
+  {
+    "_0": "                        <a href=\"/info/About-123.aspx\" target=\"_self\" class=\"mob_drop_link w-dropdown-link \">אודות 123</a>"
+  },
+  {
+    "_0": "                    "
+  },
+  {
+    "_0": "                        <a href=\"/123/123wincheck/123wininput.aspx\" target=\"_self\" class=\"mob_drop_link w-dropdown-link \">בירור זכייה</a>"
+  },
+  {
+    "_0": "                    "
+  },
+  {
+    "_0": "                        <a href=\"/123/archive.aspx\" target=\"_self\" class=\"mob_drop_link w-dropdown-link \">ארכיון תוצאות</a>"
+  },
+  {
+    "_0": "                    "
+  },
+  {
+    "_0": "                        <a href=\"/123/statistics.aspx\" target=\"_self\" class=\"mob_drop_link w-dropdown-link \">מידע סטטיסטי</a>"
+  },
+  {
+    "_0": "                    "
+  },
+  {
+    "_0": "                        <a href=\"/info/default.aspx?PageId=94\" target=\"_self\" class=\"mob_drop_link w-dropdown-link \">תקנון הגרלת 123</a>"
+  },
+  {
+    "_0": "                    "
+  },
+  {
+    "_0": "                        <a href=\"/info/winning_info.aspx\" target=\"_self\" class=\"mob_drop_link w-dropdown-link \">מה עושים כשזוכים?</a>"
+  },
+  {
+    "_0": "                         "
+  },
+  {},
+  {
+    "_0": "            </nav>"
+  },
+  {
+    "_0": "        </div>"
+  },
+  {
+    "_0": "        </li>"
+  },
+  {
+    "_0": "    </ul>"
+  },
+  {
+    "_0": "</div>"
+  },
+  {},
+  {
+    "_0": "          "
+  },
+  {
+    "_0": "          <a href=\"https://responsiblegaming.pais.co.il/\" target=\"_blank\" class=\"top_guaranty_link w-inline-block\" aria-label=\"משחקים באחריות - קישור לדף חיצוני \" onblur=\"$('.nav_mobile_button').focus()\">"
+  },
+  {
+    "_0": "            <div class=\"top_guaranty_icon\"><img src=\"/images/top_ic_games.svg\" alt=\"משחקים באחריות\"></div>"
+  },
+  {
+    "_0": "            <div>משחקים באחריות</div>"
+  },
+  {
+    "_0": "          </a>"
+  },
+  {
+    "_0": "              </nav>"
+  },
+  {
+    "_0": "        <div class=\"nav_mobile_button w-nav-button\" aria-label=\"פתיחת תפריט ראשי\"></div>"
+  },
+  {
+    "_0": "      </div>"
+  },
+  {
+    "_0": "    </div>"
+  },
+  {
+    "_0": "    <a href=\"/\" class=\"top_logo mobile w-hidden-main w-nav-brand\" aria-label=\"לוגו מפעל הפיס - קישור לדף הבית\">"
+  },
+  {
+    "_0": "        "
+  },
+  {
+    "_0": "      <div class=\"logo_txt\"><img src=\"/images/pais_logo_txt_blue.png\" alt=\"מפעל הפיס\"></div>"
+  },
+  {
+    "_0": "      <div class=\"beta_mobile\"></div>"
+  },
+  {
+    "_0": "    </a>"
+  },
+  {
+    "_0": "    <a href=\"/\" class=\"top_logo w-hidden-medium w-hidden-small w-hidden-tiny w-nav-brand\" aria-label=\"לוגו מפעל הפיס - קישור לדף הבית\">"
+  },
+  {
+    "_0": "        "
+  },
+  {
+    "_0": "          <div class=\"logo_shape\"><img src=\"/images/pais_logo_shape.png\" style=\"min-width:100%;\" alt=\"לוגו מפעל הפיס\"></div>"
+  },
+  {
+    "_0": "          <div class=\"logo_txt\"><img src=\"/images/pais_logo_txt_white.png\" style=\"min-width:100%;\" alt=\"מפעל הפיס\"></div>"
+  },
+  {
+    "_0": "          <div class=\"beta_txt list\"></div>"
+  },
+  {
+    "_0": "        "
+  },
+  {
+    "_0": "    </a>"
+  },
+  {
+    "_0": "    <div class=\"top_navgroup w-hidden-medium w-hidden-small w-hidden-tiny\">"
+  },
+  {
+    "_0": "      <div class=\"top_search_navgroup\">"
+  },
+  {
+    "_0": "        <div class=\"top_link_group\">"
+  },
+  {
+    "_0": "            <ul class=\"top_links_list w-list-unstyled\">"
+  },
+  {
+    "_0": "                <li class=\"w-clearfix\"><a href=\"/\" class=\"top_link w-hidden-medium w-hidden-small w-hidden-tiny\">ראשי</a></li>"
+  },
+  {
+    "_0": "                "
+  },
+  {
+    "_0": "                        <li class=\"w-clearfix\"><a href=\"/info/careers.aspx\" target=\"_self\" class=\"top_link w-hidden-medium w-hidden-small w-hidden-tiny\">דרושים</a></li>"
+  },
+  {
+    "_0": "                    "
+  },
+  {
+    "_0": "                        <li class=\"w-clearfix\"><a href=\"/info/About.aspx\" target=\"_self\" class=\"top_link w-hidden-medium w-hidden-small w-hidden-tiny\">אודות</a></li>"
+  },
+  {
+    "_0": "                    "
+  },
+  {
+    "_0": "                        <li class=\"w-clearfix\"><a href=\"/info/Thank-to.aspx\" target=\"_self\" class=\"top_link w-hidden-medium w-hidden-small w-hidden-tiny\">בזכות הפיס</a></li>"
+  },
+  {
+    "_0": "                    "
+  },
+  {
+    "_0": "                        <li class=\"w-clearfix\"><a href=\"/news\" target=\"_self\" class=\"top_link w-hidden-medium w-hidden-small w-hidden-tiny\">חדשות</a></li>"
+  },
+  {
+    "_0": "                    "
+  },
+  {
+    "_0": "                        <li class=\"w-clearfix\"><a href=\"/info/Franchisees.aspx\" target=\"_self\" class=\"top_link w-hidden-medium w-hidden-small w-hidden-tiny\">נקודות מכירה</a></li>"
+  },
+  {
+    "_0": "                    "
+  },
+  {
+    "_0": "                        <li class=\"w-clearfix\"><a href=\"/tenders\" target=\"_self\" class=\"top_link w-hidden-medium w-hidden-small w-hidden-tiny\">רכש ומכרזים</a></li>"
+  },
+  {
+    "_0": "                    "
+  },
+  {
+    "_0": "                        <li class=\"w-clearfix\"><a href=\"/contactus/contact_us.aspx\" target=\"_self\" class=\"top_link w-hidden-medium w-hidden-small w-hidden-tiny\">צרו קשר</a></li>"
+  },
+  {
+    "_0": "                    "
+  },
+  {
+    "_0": "                        <li class=\"w-clearfix\"><a href=\"https://www.pais.co.il/subscriber/register.aspx\" target=\"_blank\" class=\"top_link w-hidden-medium w-hidden-small w-hidden-tiny\">הצטרפו למנוי פיס</a></li>"
+  },
+  {
+    "_0": "                    "
+  },
+  {
+    "_0": "                        <li class=\"w-clearfix\"><a href=\"https://www.paisplus.co.il/?utm_source=Pais&amp;utm_medium=link&amp;utm_campaign=new_subscription_2019\" target=\"_blank\" class=\"top_link w-hidden-medium w-hidden-small w-hidden-tiny\">הטבות למנויים</a></li>"
+  },
+  {
+    "_0": "                    "
+  },
+  {
+    "_0": "                        <li class=\"w-clearfix\"><a href=\"https://paiszone.pais.co.il\" target=\"_blank\" class=\"top_link last w-hidden-medium w-hidden-small w-hidden-tiny\">אזור אישי למנויי הפיס</a></li>"
+  },
+  {
+    "_0": "                                "
+  },
+  {
+    "_0": "            </ul>"
+  },
+  {},
+  {
+    "_0": "            "
+  },
+  {
+    "_0": "            <a href=\"https://responsiblegaming.pais.co.il/\" target=\"_blank\" class=\"top_guaranty_link w-hidden-medium w-hidden-small w-hidden-tiny w-inline-block\" aria-label=\"משחקים באחריות - קישור לדף חיצוני \">"
+  },
+  {
+    "_0": "                <div class=\"top_guaranty_icon\"><img src=\"/images/top_ic_games.svg\" alt=\"></div>"
+  },
+  {
+    "_0": "                <div>משחקים באחריות</div>"
+  },
+  {
+    "_0": "            </a>"
+  },
+  {
+    "_0": "        </div>"
+  },
+  {},
+  {
+    "_0": "        <div class=\"top_search_desktop w-hidden-medium w-hidden-small w-hidden-tiny\">"
+  },
+  {
+    "_0": "          <div class=\"deskk_search_drop\">"
+  },
+  {
+    "_0": "            <a id=\"btnOpenSearchBlock\" href=\"void(0)\" onclick=\"openSearchBlock();return false\" class=\"desk_search_but w-inline-block\" aria-label=\"לחץ לחיפוש\"  aria-live=\"polite\"></a>"
+  },
+  {
+    "_0": "            <a id=\"btnCloseSearchBlock\" href=\"void(0)\" onclick=\"closeSearchBlock();return false\" class=\"desk_search_but open w-inline-block\" style=\"display:none\" aria-label=\"סגור חלונית חיפוש\"></a>"
+  },
+  {
+    "_0": "            <div class=\"desk_search_list\">"
+  },
+  {
+    "_0": "              <div class=\"top_search_block w-hidden-medium w-hidden-small w-hidden-tiny\" id=\"topSearchBlock\" style=\"display:none\">"
+  },
+  {
+    "_0": "                <div class=\"w-form\">"
+  },
+  {
+    "_0": "                  <div class=\"form\">"
+  },
+  {
+    "_0": "                         <input id=\"desktopInput\" type=\"text\" maxlength=\"50\" placeholder=\"הזן מילת חיפוש\" class=\"top_search_in w-input\" autocomplete=\"off\">"
+  },
+  {
+    "_0": "                         <a id=\"searchBtn\" href=\"#\" class=\"top_search_link w-inline-block\" role=\"button\" onclick=\"searchClicked('desktopInput')\" aria-label=\"לחץ לביצוע חיפוש\"><img src=\"/images/ic_search.svg\" alt=\" /></a>"
+  },
+  {
+    "_0": "  </div>"
+  },
+  {
+    "_0": "                </div>"
+  },
+  {
+    "_0": "              </div>"
+  },
+  {
+    "_0": "            </div>"
+  },
+  {
+    "_0": "          </div>"
+  },
+  {
+    "_0": "        </div>"
+  },
+  {},
+  {
+    "_0": "       "
+  },
+  {
+    "_0": "        "
+  },
+  {
+    "_0": "      </div>"
+  },
+  {
+    "_0": "        <ul class=\"top_categories w-list-unstyled\">"
+  },
+  {
+    "_0": "            <li><a href=\"/lotto/\" class=\"top_cat_link w-inline-block\" aria-label=\"קישור למשחק לוטו\"><img src=\"/images/Lotto-sml_1.png\" style=\"min-width:100%;\" alt=\"לוגו משחק לוטו\"></a></li>"
+  },
+  {
+    "_0": "            <li>"
+  },
+  {
+    "_0": "                <div class=\"top_cat_line\"></div>"
+  },
+  {
+    "_0": "            </li>"
+  },
+  {
+    "_0": "            <li><a href=\"/chance/\" class=\"top_cat_link chance w-inline-block\" aria-label=\"קישור למשחק צ'אנס\"><img src=\"/images/Chance-sml.png\" style=\"min-width:100%;\" alt=\"לוגו משחק צ'אנס\"></a></li>"
+  },
+  {
+    "_0": "            <li>"
+  },
+  {
+    "_0": "                <div class=\"top_cat_line\"></div>"
+  },
+  {
+    "_0": "            </li>"
+  },
+  {
+    "_0": "            <li><a href=\"/hishgad/\" class=\"top_cat_link hishgat w-inline-block\" aria-label=\"קישור למשחק חישגד\"><img src=\"/images/Hishgad-sml_1.png\" style=\"min-width:100%;\" alt=\"לוגו משחק חישגד\"></a></li>"
+  },
+  {
+    "_0": "            <li>"
+  },
+  {
+    "_0": "                <div class=\"top_cat_line\"></div>"
+  },
+  {
+    "_0": "            </li>"
+  },
+  {
+    "_0": "            <li><a href=\"/info/paisplus.aspx\" class=\"top_cat_link club w-inline-block\" aria-label=\"קישור למנוי פיס\"><img src=\"/images/members-sml.png\" style=\"min-width:100%;\" alt=\"לוגו מנוי פיס\"></a></li>"
+  },
+  {
+    "_0": "            <li>"
+  },
+  {
+    "_0": "                <div class=\"top_cat_line\"></div>"
+  },
+  {
+    "_0": "            </li>"
+  },
+  {
+    "_0": "            <li><a href=\"/777/\" class=\"top_cat_link _777 w-inline-block\" aria-label=\"קישור למשחק 777\"><img src=\"/images/_777-sml.png\" style=\"min-width:100%;\" alt=\"לוגו משחק 777\"></a></li>"
+  },
+  {
+    "_0": "            <li>"
+  },
+  {
+    "_0": "                <div class=\"top_cat_line\"></div>"
+  },
+  {
+    "_0": "            </li>"
+  },
+  {
+    "_0": "            <li><a href=\"/123/\" class=\"top_cat_link _123 w-inline-block\" aria-label=\"קישור למשחק 123\"><img src=\"/images/_123-sml.png\" style=\"min-width:100%;\" alt=\"לוגו משחק 123\"></a></li>"
+  },
+  {
+    "_0": "        </ul>"
+  },
+  {
+    "_0": "    </div>"
+  },
+  {
+    "_0": "  </div>"
+  },
+  {},
+  {
+    "_0": "  <div class=\"mob_google_search w-hidden-main\">"
+  },
+  {
+    "_0": "    <div id=\"googleSearchContainer\" class=\"top_search_block\"  style=\"display: none;\">"
+  },
+  {
+    "_0": "        <div class=\"w-form\">"
+  },
+  {
+    "_0": "        <div class=\"form\">"
+  },
+  {
+    "_0": "            <input id=\"mobileInput\" type=\"text\" maxlength=\"50\" placeholder=\"הזן מילת חיפוש\" class=\"top_search_in w-input\" auto>"
+  },
+  {
+    "_0": "            <a href=\"#\" class=\"top_search_link w-inline-block\" role=\"button\" onclick=\"searchClicked('mobileInput')\">"
+  },
+  {
+    "_0": "                <img src=\"/images/ic_search.svg\" alt=\">"
+  },
+  {
+    "_0": "            </a>"
+  },
+  {
+    "_0": "        </div>"
+  },
+  {
+    "_0": "        </div>"
+  },
+  {
+    "_0": "    </div>"
+  },
+  {
+    "_0": "</div>"
+  },
+  {
+    "_0": " <a name=\"mainContent\" title=\"תוכן הדף\"></a> "
+  },
+  {},
+  {
+    "_0": "<div id=\"message\" role=\"alert\"></div>"
+  },
+  {
+    "_0": "<style>"
+  },
+  {
+    "_0": "    #message {"
+  },
+  {
+    "_0": "    visibility: hidden;"
+  },
+  {
+    "_0": "    min-width: 250px;"
+  },
+  {
+    "_0": "    margin-left: -125px;"
+  },
+  {
+    "_0": "    background-color: #333;"
+  },
+  {
+    "_0": "    color: #fff;"
+  },
+  {
+    "_0": "    text-align: center;"
+  },
+  {
+    "_0": "    border-radius: 2px;"
+  },
+  {
+    "_0": "    padding: 16px;"
+  },
+  {
+    "_0": "    position: fixed;"
+  },
+  {
+    "_0": "    z-index: 100000;"
+  },
+  {
+    "_0": "    left: 50%;"
+  },
+  {
+    "_0": "    top: 20px;"
+  },
+  {
+    "_0": "    font-size: 20px;"
+  },
+  {
+    "_0": "    font-weight: bold;"
+  },
+  {
+    "_0": "}"
+  },
+  {},
+  {
+    "_0": "    #message.show {"
+  },
+  {
+    "_0": "        visibility: visible;"
+  },
+  {
+    "_0": "        /*-webkit-animation: fadein 0.2s",
+    "_1": " fadeout 0.2s 0s;"
+  },
+  {
+    "_0": "        animation: fadein 0.2s",
+    "_1": " fadeout 0.2s 0s;*/"
+  },
+  {
+    "_0": "    }"
+  },
+  {},
+  {
+    "_0": "@-webkit-keyframes fadein {"
+  },
+  {
+    "_0": "    from {"
+  },
+  {
+    "_0": "        top: 0;"
+  },
+  {
+    "_0": "        opacity: 0;"
+  },
+  {
+    "_0": "    }"
+  },
+  {},
+  {
+    "_0": "    to {"
+  },
+  {
+    "_0": "        top: 20px;"
+  },
+  {
+    "_0": "        opacity: 1;"
+  },
+  {
+    "_0": "    }"
+  },
+  {
+    "_0": "}"
+  },
+  {},
+  {
+    "_0": "@keyframes fadein {"
+  },
+  {
+    "_0": "    from {"
+  },
+  {
+    "_0": "        top: 0;"
+  },
+  {
+    "_0": "        opacity: 0;"
+  },
+  {
+    "_0": "    }"
+  },
+  {},
+  {
+    "_0": "    to {"
+  },
+  {
+    "_0": "        top: 20px;"
+  },
+  {
+    "_0": "        opacity: 1;"
+  },
+  {
+    "_0": "    }"
+  },
+  {
+    "_0": "}"
+  },
+  {},
+  {
+    "_0": "@-webkit-keyframes fadeout {"
+  },
+  {
+    "_0": "    from {"
+  },
+  {
+    "_0": "        top: 20px;"
+  },
+  {
+    "_0": "        opacity: 1;"
+  },
+  {
+    "_0": "    }"
+  },
+  {},
+  {
+    "_0": "    to {"
+  },
+  {
+    "_0": "        top: 0;"
+  },
+  {
+    "_0": "        opacity: 0;"
+  },
+  {
+    "_0": "    }"
+  },
+  {
+    "_0": "}"
+  },
+  {},
+  {
+    "_0": "@keyframes fadeout {"
+  },
+  {
+    "_0": "    from {"
+  },
+  {
+    "_0": "        top: 20px;"
+  },
+  {
+    "_0": "        opacity: 1;"
+  },
+  {
+    "_0": "    }"
+  },
+  {},
+  {
+    "_0": "    to {"
+  },
+  {
+    "_0": "        top: 0;"
+  },
+  {
+    "_0": "        opacity: 0;"
+  },
+  {
+    "_0": "    }"
+  },
+  {
+    "_0": "}"
+  },
+  {},
+  {},
+  {},
+  {
+    "_0": "</style>"
+  },
+  {},
+  {},
+  {},
+  {
+    "_0": "<script>"
+  },
+  {
+    "_0": "    //desktop search"
+  },
+  {
+    "_0": "    function openSearchBlock() {"
+  },
+  {
+    "_0": "        $(\"#topSearchBlock\").show()"
+  },
+  {
+    "_0": "        $(\"#btnOpenSearchBlock\").hide()"
+  },
+  {
+    "_0": "        $(\"#btnCloseSearchBlock\").show()"
+  },
+  {
+    "_0": "        $(\"#desktopInput\").focus()"
+  },
+  {
+    "_0": "    }"
+  },
+  {
+    "_0": "      function closeSearchBlock() {"
+  },
+  {
+    "_0": "        $(\"#topSearchBlock\").hide()"
+  },
+  {
+    "_0": "        $(\"#btnOpenSearchBlock\").show()"
+  },
+  {
+    "_0": "        $(\"#btnCloseSearchBlock\").hide()"
+  },
+  {
+    "_0": "    }"
+  },
+  {
+    "_0": "</script>"
+  },
+  {},
+  {},
+  {},
+  {
+    "_0": "<script>"
+  },
+  {
+    "_0": "    var isSearchOpened = false;"
+  },
+  {},
+  {
+    "_0": "    function toggleSearch() {"
+  },
+  {
+    "_0": "        if (isSearchOpened) {"
+  },
+  {
+    "_0": "            isSearchOpened = false;"
+  },
+  {
+    "_0": "            //$('.gsc-control-cse').css('display'",
+    "_1": " 'none');"
+  },
+  {
+    "_0": "            $('#googleSearchContainer').css('display'",
+    "_1": " 'none');"
+  },
+  {
+    "_0": "            document.getElementById(\"openImg\").src = root + \"images/top_ic_search.svg\";"
+  },
+  {
+    "_0": "            $('#openImg').css('width'",
+    "_1": " '100%');"
+  },
+  {
+    "_0": "            $('#openIcon').attr(\"aria-label\"",
+    "_1": " \"לחץ לחיפוש\")"
+  },
+  {
+    "_0": "            $('#openIcon').focus()"
+  },
+  {
+    "_0": "        }"
+  },
+  {
+    "_0": "        else {"
+  },
+  {
+    "_0": "            isSearchOpened = true;"
+  },
+  {
+    "_0": "            //$('.gsc-control-cse').css('display'",
+    "_1": " 'block');"
+  },
+  {
+    "_0": "            $('#googleSearchContainer').css('display'",
+    "_1": " 'block');"
+  },
+  {
+    "_0": "            document.getElementById(\"openImg\").src = root + \"images/ic_close.svg\";"
+  },
+  {
+    "_0": "            $('#openImg').css('width'",
+    "_1": " '80%');            "
+  },
+  {
+    "_0": "            $('#openIcon').attr(\"aria-label\"",
+    "_1": " \" סגור חיפוש\")"
+  },
+  {
+    "_0": "            $('#mobileInput').focus()"
+  },
+  {
+    "_0": "        }"
+  },
+  {
+    "_0": "        "
+  },
+  {
+    "_0": "    }"
+  },
+  {},
+  {
+    "_0": "    function searchClicked(elementId) {"
+  },
+  {
+    "_0": "        var root = document.getElementById(\"ApplicationRoot\").href;"
+  },
+  {
+    "_0": "        var value = $(\"#\" + elementId).val();"
+  },
+  {
+    "_0": "        if (value.trim().length < 2 || !ChkForhebrewLetters(value)) {"
+  },
+  {
+    "_0": "            callMessage(\"יש להקליד מילת חיפוש בעברית ובאורך של שני תווים לפחות\");"
+  },
+  {
+    "_0": "            return;"
+  },
+  {
+    "_0": "        }"
+  },
+  {
+    "_0": "        location.href = root + \"include/googleSearchJsonApi.aspx?q=\" + value + \"&i=1\";"
+  },
+  {
+    "_0": "    }"
+  },
+  {},
+  {},
+  {
+    "_0": "    function ChkForhebrewLetters(WhatToCheck) {"
+  },
+  {
+    "_0": "        var ValidCharacters = \" 1234567890אבגדהוזחטיכךלמםנןסעפףצץקרשת'\";"
+  },
+  {
+    "_0": "\t    for (i = 0; i < WhatToCheck.length; i++) {"
+  },
+  {
+    "_0": "\t\t    if (ValidCharacters.indexOf(WhatToCheck.substring(i",
+    "_1": " i + 1).toUpperCase()) == -1) {"
+  },
+  {
+    "_0": "\t\t\t    if (WhatToCheck.substring(i",
+    "_1": " i + 1).toUpperCase() != '\"') {\r\n                    return false;\r\n\t\t\t    }\r\n\t\t    }\r\n\t    }\r\n        return true;\r\n    }\r\n\r\n\r\n\r\n\r\n    function callMessage(text, time) {\r\n    if (time == null || time < 500) time = 5000;\r\n    var element = document.getElementById(\"message\");\r\n    element.className = \"show\";\r\n    element.innerText = text;\r\n    setTimeout(function () {\r\n        element.className = element.className.replace(\"show\"",
+    "_2": " \");\r\n    }, time);\r\n    }\r\n\r\n    \r\n</script>\r\n\r\n\r\n\r\n  <div class=\"list_title_section _404\"></div>\r\n  <div class=\"content_section _404\">\r\n    <h1 class=\"title_404\">מצטערים, הדף לא קיים</h1>\r\n    <div class=\"_404_content\">\r\n      <div class=\"_494_txt\">ייתכן שהקלדת את הכתובת בצורה שגויה או שהדף אינו קיים עוד.</div>\r\n    </div>\r\n    <div class=\"_404_content\">\r\n      <div class=\"_494_txt\">גלשו</div><a href=\"/default.aspx\" class=\"_404_link\">לדף הבית</a></div>\r\n  </div>\r\n\r\n\r\n\r\n\r\n<a name=\"footerContent\" title=\"קישרים בתחתית העמוד\"></a>\r\n<div class=\"footer_section\" role=\"contentinfo\">\r\n    <div class=\"content_group footer_nav w-clearfix\">\r\n      <div class=\"footer_app_group\"><a href=\"#\" class=\"footer_logo w-inline-block\" aria-label=\"לוגו מפעל הפיס - קישור לדף הבית\"><img src=\"/images/pais_logo_footer.png\"  alt=\"לוגו מפעל הפיס\"></a></div>\r\n      <div class=\"footer_nav_content\">\r\n        \r\n            <div class=\"footer_nav_group\">\r\n                    <div class=\"footer_nav_title w-inline-block\">\r\n                        \r\n                        <h4 class=\"foter_cat_heading\">הגרלות הפיס</h4>\r\n                        <div class=\"footer_nav_line\"></div>\r\n                        \r\n                    </div>\r\n                <ul class=\"footer_list w-list-unstyled\">\r\n                     \r\n                    <li class=\"w-clearfix\">\r\n                        \r\n                        <a href=\"/lotto/archive.aspx\"  class=\"footer_social_link w-inline-block\">\r\n                            <div class=\"footer_icon\"><img src=\"/download/footer/lotto-image-list.png\" alt=\"></div>\r\n                            <div>לוטו</div>\r\n                        </a>\r\n                        \r\n                    </li>\r\n                     \r\n                    <li class=\"w-clearfix\">\r\n                        \r\n                        <a href=\"/chance/archive.aspx\"  class=\"footer_social_link w-inline-block\">\r\n                            <div class=\"footer_icon\"><img src=\"/download/footer/c.png\" alt=\"></div>\r\n                            <div>צ&#39;אנס</div>\r\n                        </a>\r\n                        \r\n                    </li>\r\n                     \r\n                    <li class=\"w-clearfix\">\r\n                        \r\n                        <a href=\"/777/archive.aspx\"  class=\"footer_social_link w-inline-block\">\r\n                            <div class=\"footer_icon\"><img src=\"/download/footer/777-image-list.png\" alt=\"></div>\r\n                            <div>פיס 777</div>\r\n                        </a>\r\n                        \r\n                    </li>\r\n                     \r\n                    <li class=\"w-clearfix\">\r\n                        \r\n                        <a href=\"/123/archive.aspx\"  class=\"footer_social_link w-inline-block\">\r\n                            <div class=\"footer_icon\"><img src=\"/download/footer/123-image-list.png\" alt=\"></div>\r\n                            <div>123</div>\r\n                        </a>\r\n                        \r\n                    </li>\r\n                     \r\n                    <li class=\"w-clearfix\">\r\n                        \r\n                        <a href=\"/hishgad/\"  class=\"footer_social_link w-inline-block\">\r\n                            <div class=\"footer_icon\"><img src=\"/download/footer/hishgad-image-list.png\" alt=\"></div>\r\n                            <div>חישגד</div>\r\n                        </a>\r\n                        \r\n                    </li>\r\n                     \r\n                    <li class=\"w-clearfix\">\r\n                        \r\n                        <a href=\"/subscriber/archive.aspx\"  class=\"footer_social_link w-inline-block\">\r\n                            <div class=\"footer_icon\"><img src=\"/download/footer/mpais-image-list.png\" alt=\"></div>\r\n                            <div>מנוי פיס</div>\r\n                        </a>\r\n                        \r\n                    </li>\r\n                     \r\n                </ul>\r\n            </div>\r\n        \r\n            <div class=\"footer_nav_group\">\r\n                    <div class=\"footer_nav_title w-inline-block\">\r\n                        \r\n                        <h4 class=\"foter_cat_heading\">מנוי פיס</h4>\r\n                        <div class=\"footer_nav_line\"></div>\r\n                        \r\n                    </div>\r\n                <ul class=\"footer_list w-list-unstyled\">\r\n                     \r\n                    <li class=\"w-clearfix\">\r\n                        \r\n                        <a href=\"/subscriber/register.aspx\"  class=\"footer_link\">בקשת הצטרפות</a>\r\n                        \r\n                    </li>\r\n                     \r\n                    <li class=\"w-clearfix\">\r\n                        \r\n                        <a href=\"/info/Prizes.aspx\"  class=\"footer_link\">סל הפרסים</a>\r\n                        \r\n                    </li>\r\n                     \r\n                    <li class=\"w-clearfix\">\r\n                        \r\n                        <a href=\"https://www.paisplus.co.il\" target=\"_blank\" class=\"footer_link\">אתר ההטבות של מנויי הפיס</a>\r\n                        \r\n                    </li>\r\n                     \r\n                    <li class=\"w-clearfix\">\r\n                        \r\n                        <a href=\"/info/paisplus-app.aspx\"  class=\"footer_link\">יישומון ההטבות של מנויי הפיס</a>\r\n                        \r\n                    </li>\r\n                     \r\n                    <li class=\"w-clearfix\">\r\n                        \r\n                        <a href=\"/news/news.aspx?NewsId=2553\"  class=\"footer_link\">קול קורא להגשת הצעות למתן הטבות</a>\r\n                        \r\n                    </li>\r\n                     \r\n                    <li class=\"w-clearfix\">\r\n                        \r\n                        <a href=\"/info/mpais-faq.aspx\"  class=\"footer_link\">שאלות ותשובות</a>\r\n                        \r\n                    </li>\r\n                     \r\n                    <li class=\"w-clearfix\">\r\n                        \r\n                        <a href=\"https://paiszone.pais.co.il\" target=\"_blank\" class=\"footer_link\">אזור אישי</a>\r\n                        \r\n                    </li>\r\n                     \r\n                    <li class=\"w-clearfix\">\r\n                        \r\n                        <a href=\"/info/default.aspx?PageId=1239\"  class=\"footer_link\">תקנון &#39;חבר מביא חבר מנוי פיס 2024&#39;</a>\r\n                        \r\n                    </li>\r\n                     \r\n                    <li class=\"w-clearfix\">\r\n                        \r\n                        <a href=\"/contactus/CancelSubscription.aspx\"  class=\"footer_social_link w-inline-block\">\r\n                            <div class=\"footer_icon\"><img src=\"/download/footer/broken_heart.png\" alt=\"></div>\r\n                            <div>הפסקת התקשרות מנוי פיס</div>\r\n                        </a>\r\n                        \r\n                    </li>\r\n                     \r\n                </ul>\r\n            </div>\r\n        \r\n            <div class=\"footer_nav_group\">\r\n                    <div class=\"footer_nav_title w-inline-block\">\r\n                        \r\n                        <h4 class=\"foter_cat_heading\">שימושי</h4>\r\n                        <div class=\"footer_nav_line\"></div>\r\n                        \r\n                    </div>\r\n                <ul class=\"footer_list w-list-unstyled\">\r\n                     \r\n                    <li class=\"w-clearfix\">\r\n                        \r\n                        <a href=\"/info/live.aspx\"  class=\"footer_link\">ערוץ הפיס</a>\r\n                        \r\n                    </li>\r\n                     \r\n                    <li class=\"w-clearfix\">\r\n                        \r\n                        <a href=\"/info/winning_info.aspx\"  class=\"footer_link\">מה עושים כשזוכים</a>\r\n                        \r\n                    </li>\r\n                     \r\n                    <li class=\"w-clearfix\">\r\n                        \r\n                        <a href=\"/info/tax.aspx\"  class=\"footer_link\">מחשבון מס</a>\r\n                        \r\n                    </li>\r\n                     \r\n                    <li class=\"w-clearfix\">\r\n                        \r\n                        <a href=\"/info/faq.aspx\"  class=\"footer_link\">שאלות ותשובות</a>\r\n                        \r\n                    </li>\r\n                     \r\n                    <li class=\"w-clearfix\">\r\n                        \r\n                        <a href=\"/info/CustomerIdentificationProcess.aspx\"  class=\"footer_link\">תהליך זיהוי לקוח</a>\r\n                        \r\n                    </li>\r\n                     \r\n                    <li class=\"w-clearfix\">\r\n                        \r\n                        <a href=\"/info/careers.aspx\"  class=\"footer_link\">דרושים</a>\r\n                        \r\n                    </li>\r\n                     \r\n                    <li class=\"w-clearfix\">\r\n                        \r\n                        <a href=\"/contactus/contact_us.aspx\"  class=\"footer_link\">צרו קשר</a>\r\n                        \r\n                    </li>\r\n                     \r\n                    <li class=\"w-clearfix\">\r\n                        \r\n                        <a href=\"/register/registernewsletter.aspx\"  class=\"footer_link\">רשימות דיוור ו-RSS</a>\r\n                        \r\n                    </li>\r\n                     \r\n                    <li class=\"w-clearfix\">\r\n                        \r\n                        <a href=\"/info/Freedom-of-Information.aspx\"  class=\"footer_link\">חופש מידע ודיווחים שוטפים על פעילות הפיס</a>\r\n                        \r\n                    </li>\r\n                     \r\n                    <li class=\"w-clearfix\">\r\n                        \r\n                        <a href=\"/info/Franchisees.aspx\"  class=\"footer_link\">נקודות מכירה</a>\r\n                        \r\n                    </li>\r\n                     \r\n                    <li class=\"w-clearfix\">\r\n                        \r\n                        <a href=\"/tenders\"  class=\"footer_link\">רכש ומכרזים</a>\r\n                        \r\n                    </li>\r\n                     \r\n                </ul>\r\n            </div>\r\n        \r\n            <div class=\"footer_nav_group\">\r\n                    <div class=\"footer_nav_title w-inline-block\">\r\n                        \r\n                        <h4 class=\"foter_cat_heading\">מועצת הפיס לתרבות ואמנות</h4>\r\n                        <div class=\"footer_nav_line\"></div>\r\n                        \r\n                    </div>\r\n                <ul class=\"footer_list w-list-unstyled\">\r\n                     \r\n                    <li class=\"w-clearfix\">\r\n                        \r\n                        <a href=\"/news/?catid=6\"  class=\"footer_link\">חדשות המועצה לתרבות ואמנות</a>\r\n                        \r\n                    </li>\r\n                     \r\n                    <li class=\"w-clearfix\">\r\n                        \r\n                        <a href=\"https://culture.pais.co.il/projects/\" target=\"_blank\" class=\"footer_link\">פרויקטים ויוזמות</a>\r\n                        \r\n                    </li>\r\n                     \r\n                    <li class=\"w-clearfix\">\r\n                        \r\n                        <a href=\"https://culture.pais.co.il/TV/\" target=\"_blank\" class=\"footer_link\">תחום קולנוע וניו־מדיה</a>\r\n                        \r\n                    </li>\r\n                     \r\n                    <li class=\"w-clearfix\">\r\n                        \r\n                        <a href=\"https://culture.pais.co.il/Interdisciplinary\" target=\"_blank\" class=\"footer_link\">תחום אמנות בקהילה</a>\r\n                        \r\n                    </li>\r\n                     \r\n                    <li class=\"w-clearfix\">\r\n                        \r\n                        <a href=\"https://culture.pais.co.il/VisualArt/\" target=\"_blank\" class=\"footer_link\">תחום אמנות ועיצוב</a>\r\n                        \r\n                    </li>\r\n                     \r\n                    <li class=\"w-clearfix\">\r\n                        \r\n                        <a href=\"https://culture.pais.co.il/Literature\" target=\"_blank\" class=\"footer_link\">תחום ספרות</a>\r\n                        \r\n                    </li>\r\n                     \r\n                    <li class=\"w-clearfix\">\r\n                        \r\n                        <a href=\"https://culture.pais.co.il/StageArt\" target=\"_blank\" class=\"footer_link\">תחום אמנויות הבמה</a>\r\n                        \r\n                    </li>\r\n                     \r\n                    <li class=\"w-clearfix\">\r\n                        \r\n                        <a href=\"https://culture.pais.co.il/Sapir\" target=\"_blank\" class=\"footer_link\">פרס ספיר לספרות</a>\r\n                        \r\n                    </li>\r\n                     \r\n                    <li class=\"w-clearfix\">\r\n                        \r\n                        <a href=\"https://culture.pais.co.il/Landau\" target=\"_blank\" class=\"footer_link\">פרס אמנויות ומדעים</a>\r\n                        \r\n                    </li>\r\n                     \r\n                </ul>\r\n            </div>\r\n        \r\n            <div class=\"footer_nav_group\">\r\n                    <div class=\"footer_nav_title w-inline-block\">\r\n                        \r\n                        <h4 class=\"foter_cat_heading\">למען הקהילה</h4>\r\n                        <div class=\"footer_nav_line\"></div>\r\n                        \r\n                    </div>\r\n                <ul class=\"footer_list w-list-unstyled\">\r\n                     \r\n                    <li class=\"w-clearfix\">\r\n                        \r\n                        <a href=\"https://goodcauses.pais.co.il/תוכנית-המלגות\" target=\"_blank\" class=\"footer_link\">מלגות מפעל הפיס להשכלה גבוהה</a>\r\n                        \r\n                    </li>\r\n                     \r\n                    <li class=\"w-clearfix\">\r\n                        \r\n                        <a href=\"/info/Thank-to.aspx\"  class=\"footer_link\">הפיס במקום מגורך</a>\r\n                        \r\n                    </li>\r\n                     \r\n                    <li class=\"w-clearfix\">\r\n                        \r\n                        <a href=\"https://authinfo.pais.co.il/\" target=\"_blank\" class=\"footer_link\">אתר מידע לרשויות</a>\r\n                        \r\n                    </li>\r\n                     \r\n                    <li class=\"w-clearfix\">\r\n                        \r\n                        <a href=\"https://manof.pais.co.il\" target=\"_blank\" class=\"footer_link\">מערכת מנו&quot;ף</a>\r\n                        \r\n                    </li>\r\n                     \r\n                </ul>\r\n            </div>\r\n        \r\n            <div class=\"footer_nav_group\">\r\n                    <div class=\"footer_nav_title w-inline-block\">\r\n                        \r\n                        <h4 class=\"foter_cat_heading\">משפטי</h4>\r\n                        <div class=\"footer_nav_line\"></div>\r\n                        \r\n                    </div>\r\n                <ul class=\"footer_list w-list-unstyled\">\r\n                     \r\n                    <li class=\"w-clearfix\">\r\n                        \r\n                        <a href=\"/info/Accessibility.aspx\"  class=\"footer_link\">הצהרת נגישות</a>\r\n                        \r\n                    </li>\r\n                     \r\n                    <li class=\"w-clearfix\">\r\n                        \r\n                        <a href=\"/info/Term-Of-Use.aspx\"  class=\"footer_link\">תנאי שימוש</a>\r\n                        \r\n                    </li>\r\n                     \r\n                    <li class=\"w-clearfix\">\r\n                        \r\n                        <a href=\"/info/Privacy_Policy.aspx\"  class=\"footer_link\">מדיניות פרטיות</a>\r\n                        \r\n                    </li>\r\n                     \r\n                    <li class=\"w-clearfix\">\r\n                        \r\n                        <a href=\"/info/Conferences-Criteria.aspx\"  class=\"footer_link\">כנסים - קריטריונים לבחינה ואישור</a>\r\n                        \r\n                    </li>\r\n                     \r\n                </ul>\r\n            </div>\r\n        \r\n            <div class=\"footer_nav_group\">\r\n                    <div class=\"footer_nav_title w-inline-block\">\r\n                        \r\n                        <h4 class=\"foter_cat_heading\">תקנוני הגרלות</h4>\r\n                        <div class=\"footer_nav_line\"></div>\r\n                        \r\n                    </div>\r\n                <ul class=\"footer_list w-list-unstyled\">\r\n                     \r\n                    <li class=\"w-clearfix\">\r\n                        \r\n                        <a href=\"/info/default.aspx?PageId=96\"  class=\"footer_link\">לוטו</a>\r\n                        \r\n                    </li>\r\n                     \r\n                    <li class=\"w-clearfix\">\r\n                        \r\n                        <a href=\"/info/default.aspx?PageId=97\"  class=\"footer_link\">צ&#39;אנס</a>\r\n                        \r\n                    </li>\r\n                     \r\n                    <li class=\"w-clearfix\">\r\n                        \r\n                        <a href=\"/info/hg-tou.aspx\"  class=\"footer_link\">חישגד</a>\r\n                        \r\n                    </li>\r\n                     \r\n                    <li class=\"w-clearfix\">\r\n                        \r\n                        <a href=\"/info/Policy-Notes.aspx\"  class=\"footer_link\">מנוי פיס</a>\r\n                        \r\n                    </li>\r\n                     \r\n                    <li class=\"w-clearfix\">\r\n                        \r\n                        <a href=\"/info/default.aspx?PageId=95\"  class=\"footer_link\">פיס 777</a>\r\n                        \r\n                    </li>\r\n                     \r\n                    <li class=\"w-clearfix\">\r\n                        \r\n                        <a href=\"/info/default.aspx?PageId=94\"  class=\"footer_link\">123</a>\r\n                        \r\n                    </li>\r\n                     \r\n                </ul>\r\n            </div>\r\n        \r\n            <div class=\"footer_nav_group\">\r\n                    <div class=\"footer_nav_title w-inline-block\">\r\n                        \r\n                        <h4 class=\"foter_cat_heading\">חברתי</h4>\r\n                        <div class=\"footer_nav_line\"></div>\r\n                        \r\n                    </div>\r\n                <ul class=\"footer_list w-list-unstyled\">\r\n                     \r\n                    <li class=\"w-clearfix\">\r\n                        \r\n                        <a href=\" https://www.instagram.com/pais.co.il/\"  class=\"footer_social_link w-inline-block\">\r\n                            <div class=\"footer_icon\"><img src=\"/download/footer/footer_ic_instagram.svg\" alt=\"></div>\r\n                            <div>אינסטגרם מפעל הפיס</div>\r\n                        </a>\r\n                        \r\n                    </li>\r\n                     \r\n                    <li class=\"w-clearfix\">\r\n                        \r\n                        <a href=\"https://www.youtube.com/@MifalHapaisIL\"  class=\"footer_social_link w-inline-block\">\r\n                            <div class=\"footer_icon\"><img src=\"/download/footer/youtube-icon-87.png\" alt=\"></div>\r\n                            <div>ערוץ היוטיוב</div>\r\n                        </a>\r\n                        \r\n                    </li>\r\n                     \r\n                    <li class=\"w-clearfix\">\r\n                        \r\n                        <a href=\"https://www.facebook.com/PaisTarbut\"  class=\"footer_social_link w-inline-block\">\r\n                            <div class=\"footer_icon\"><img src=\"/download/footer/footer_ic_facebook_1.svg\" alt=\"></div>\r\n                            <div>פיס בתרבות בפייסבוק</div>\r\n                        </a>\r\n                        \r\n                    </li>\r\n                     \r\n                    <li class=\"w-clearfix\">\r\n                        \r\n                        <a href=\"https://www.facebook.com/Lotto.il\"  class=\"footer_social_link w-inline-block\">\r\n                            <div class=\"footer_icon\"><img src=\"/download/footer/footer_ic_facebook.svg\" alt=\"></div>\r\n                            <div>לוטו בפייסבוק</div>\r\n                        </a>\r\n                        \r\n                    </li>\r\n                     \r\n                    <li class=\"w-clearfix\">\r\n                        \r\n                        <a href=\"https://www.facebook.com/hishgad\"  class=\"footer_social_link w-inline-block\">\r\n                            <div class=\"footer_icon\"><img src=\"/download/footer/footer_ic_facebook_2.svg\" alt=\"></div>\r\n                            <div>חישגד בפייסבוק</div>\r\n                        </a>\r\n                        \r\n                    </li>\r\n                     \r\n                    <li class=\"w-clearfix\">\r\n                        \r\n                        <a href=\"https://www.facebook.com/Chance.il/\"  class=\"footer_social_link w-inline-block\">\r\n                            <div class=\"footer_icon\"><img src=\"/download/footer/footer_ic_facebook_3.svg\" alt=\"></div>\r\n                            <div>צ&#39;אנס בפייסבוק</div>\r\n                        </a>\r\n                        \r\n                    </li>\r\n                     \r\n                    <li class=\"w-clearfix\">\r\n                        \r\n                        <a href=\"https://www.facebook.com/PaisSubscribers/\"  class=\"footer_social_link w-inline-block\">\r\n                            <div class=\"footer_icon\"><img src=\"/download/footer/footer_ic_facebook_4.svg\" alt=\"></div>\r\n                            <div>מנוי פיס בפייסבוק</div>\r\n                        </a>\r\n                        \r\n                    </li>\r\n                     \r\n                    <li class=\"w-clearfix\">\r\n                        \r\n                        <a href=\"https://www.facebook.com/paiscommunity/\"  class=\"footer_social_link w-inline-block\">\r\n                            <div class=\"footer_icon\"><img src=\"/download/footer/footer_ic_facebook_5.svg\" alt=\"></div>\r\n                            <div>פיס בקהילה בפייסבוק</div>\r\n                        </a>\r\n                        \r\n                    </li>\r\n                     \r\n                </ul>\r\n            </div>\r\n        \r\n\r\n\r\n      </div>\r\n    </div>\r\n\r\n    <div class=\"content_group footer_app\">\r\n      <div class=\"footer_app_group applications\">\r\n        <div class=\"footer_app_title\">הורידו את יישומון מפעל הפיס הרשמי לטלפונים חכמים</div><a href=\"https://play.google.com/store/apps/details?id=il.co.pais.inmanage\" target=\"_blank\" class=\"footer_app_button w-inline-block\" aria-label=\"הורדה מגוגל פליי\"><img src=\"/images/google_play.png\" alt=\"לוגו גוגל פליי\"></a><a href=\"http://itunes.apple.com/us/app/id714840234?mt=8\" target=\"_blank\" class=\"footer_app_button w-inline-block\" aria-label=\"הורדה מאפל סטור\"><img src=\"/images/apple_store.png\" alt=\"לוגו אפל סטור\"></a></div>\r\n    </div>\r\n    <div class=\"content_group footer_info\">\r\n      <div class=\"footer_warning\">\r\n        <h4 class=\"heading-2\">המכירה אסורה למי שטרם מלאו לו 18 שנים.</h4>\r\n        <div>\r\n            <b><u>אזהרה</u></b>:\r\n            משרד הרווחה והביטחון החברתי קובע כי הימורים עלולים להיות ממכרים. ניתן ליצור קשר עם מוקד הרווחה למידע וסיוע של משרד הרווחה והביטחון החברתי שמספרו 118 (שיחה חינם) 24 שעות ביממה. הזכייה תלויה במזל בלבד, ואינה קשורה לידע, ניסיון, יכולת או ריבוי משחקים.</div>\r\n      </div>\r\n    </div>\r\n    <div id=\"chromeDownload\" class=\"content_group chrome w-hidden-medium w-hidden-small w-hidden-tiny\" hidden=\"hidden\">\r\n      <div>אתר מפעל הפיס מומלץ לצפייה ולגלישה מיטבית בדפדפן</div>\r\n      <a href=\"https://www.google.com/intl/iw/chrome/\" class=\"chtome_link w-inline-block\">\r\n        <div>Chrome</div>\r\n        <div class=\"chrome_logo\"><img src=\"/images/chrome.png\" alt=\"chrome icon\"></div>\r\n      </a>\r\n    </div>\r\n  </div>\r\n\r\n  <div class=\"footer_rights_section w-clearfix\">\r\n    <div style=\"direction: rtl;\">© כל הזכויות שמורות למפעל הפיס (2025-1951)</div><a href=\"http://www.cyberserve.co.il\" target=\"_blank\" class=\"footer_cyber_link\">Created by <strong class=\"cyberserve\">cyberserve</strong></a></div>\r\n  \r\n\r\n\r\n    <div id=\"userCockiesQuestion\" class=\"coockies_section\" hidden=\"hidden\" style=\"display:none;\" role=\"alert\">\r\n        <div class=\"coockies_txt\" tabindex=\"0\"> אתר מפעל הפיס מומלץ לצפייה ולגלישה מיטבית בדפדפן <a href=\"https://www.google.com/intl/iw/chrome/\" class=\"coockies_link w-inline-block\"> Chrome </a></div>\r\n        <div class=\"coockies_txt\">\r\n            <a href=\"https://www.google.com/intl/iw/chrome/\" class=\"w-inline-block\">\r\n                <div class=\"chrome_logo\"><img src=\"/images/chrome.png\" alt=\"לחץ להורדת דפדפן כרום\"></div>\r\n            </a>\r\n        </div>\r\n\r\n        <a id=\"acceptCockies\" href=\"#\" role=\"button\" onclick=\"acceptCockies()\" class=\"coockies_button w-inline-block\">\r\n          <div>סגור</div>\r\n        </a>\r\n    </div>\r\n    \r\n    <section class=\"cookies_sec\" id=\"cookies_sec\" hidden=\"hidden\" style=\"display:none;\" role=\"alert\">\r\n        <div class=\"cat_attention_line cookies\"></div>\r\n        <h4 class=\"cookies_title\">גולשים יקרים,</h4>\r\n        <div class=\"cookies_txt_block\">\r\n            <div class=\"cookies_txt\">למטרות תפעול האתר, ניתוח השימוש בו, סטטיסטיקה ולצרכי פרסום מותאם וכדי לספק חווית גלישה טובה יותר, בין היתר, אנו עושים שימוש בקבצי קוקיות (cookies) וטכנולוגיות מדידה אחרות, גם של צדדים שלישיים לרבות Facebook ו-Google.</div>\r\n        </div>\r\n        <div class=\"cookies_txt_block\">\r\n            <div class=\"cookies_txt\" style=\"margin-left: 0px;\">מידע נוסף בקשר לקוקיות באתר ניתן למצוא </div>\r\n            <a href=\"https://www.pais.co.il/info/Privacy_Policy.aspx\" target=\"_blank\" class=\"cookies_link\" style=\"margin-right: 0px;\">במדיניות הפרטיות</a>\r\n            <div class=\"cookies_txt\">. ניתן לשנות הגדרת cookies בכל עת באמצעות הגדרות הדפדפן. נטרול הקוקיות עלול לגרום לכך שחלק מהשירותים והתכונות באתר בהווה/בעתיד לא יעבדו כראוי.</div>\r\n        </div>\r\n        <a href=\"#\" id=\"acceptCockiesNew\" role=\"button\" onclick=\"acceptCockiesNew()\" class=\"cookies_button w-button\">הבנתי</a>\r\n    </section>\r\n\r\n\r\n<!--script src=\"https://code.jquery.com/jquery-3.3.1.min.js\" type=\"text/javascript\" intergrity=\"sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=\" crossorigin=\"anonymous\"></!--script-->\r\n\r\n\r\n<script type=\"text/javascript\" src=\"/include/jquery-3.7.1.min.js\"></script>\r\n<script src=\"/js/webflow.js\" type=\"text/javascript\"></script>\r\n<script type=\"text/javascript\" src=\"/assets/accessibilityControl/accessibilityControl.js\"></script>\r\n\r\n\r\n\r\n<!--script src=\"/include/datetimepicker/build/jquery.datetimepicker.full.js\"></!--script> -->\r\n    <script type=\"text/javascript\" charset=\"UTF-8\" src=\"/include/script.js?v=02\"></script>\r\n  <!-- [if lte IE 9]><script src=\"https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js\"></script><![endif] -->\r\n\r\n\r\n<script src=\"/include/jquery-ui.min-1.14.0.js\" type=\"text/javascript\"></script>\r\n<script src=\"/include/assetsCalendar.js?v=02\"></script>\r\n\r\n<script>\r\n    $(document).ready(function () {\r\n    var is_chrome = ((navigator.userAgent.toLowerCase().indexOf('chrome') > -1) && (navigator.vendor.toLowerCase().indexOf(\"google\") > -1));\r\n        if (is_chrome) {\r\n            $(\"#chromeDownload\").hide();\r\n        }\r\n        else {\r\n            $(\"#chromeDownload\").show();\r\n        }\r\n\r\n       \r\n    });\r\n\r\n</script>\r\n\r\n</body>\r\n</html>"
+  }
+]

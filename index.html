@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>בדוק אם היית מיליונר</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>💰 המספרים שלך עלו בלוטו?</h1>
+    <p class="funny">אולי אתה מיליונר ולא ידעת. אולי רק הפסדת שוב. בוא נגלה 🎲</p>
+
+    <form id="lotto-form">
+      <label>הכנס 6 מספרים בין 1–37:</label>
+      <div class="inputs">
+        <input type="number" min="1" max="37" required>
+        <input type="number" min="1" max="37" required>
+        <input type="number" min="1" max="37" required>
+        <input type="number" min="1" max="37" required>
+        <input type="number" min="1" max="37" required>
+        <input type="number" min="1" max="37" required>
+      </div>
+
+      <label>הכנס מספר חזק בין 1–7:</label>
+      <input type="number" id="strong" min="1" max="7" required>
+
+      <button type="submit">בדוק אותי 🧠</button>
+    </form>
+
+    <div id="result"></div>
+
+    <div class="share">
+      <p>אהבת? שתף עם חברים:</p>
+      <button onclick="share()">📤 שתף</button>
+    </div>
+  </div>
+
+  <footer>
+    <p>🎯 פיתוח ואהבה על ידי <strong>Eliav Mendelsohn</strong> – אם זכית, אל תשכח מי עזר לך 😎</p>
+  </footer>
+
+  <!-- טוען את הקוד שיבצע fetch ל-lotto.json -->
+  <script src="script.js"></script>
+</body>
+</html>
