@@ -1,0 +1,22 @@
+# node dependencies
+node_modules/
+
+# data files that are generated or too large
+lotto.json
+Lotto.csv
+
+# VS Code folder settings (optional)
+.vscode/
+
+# system files
+.DS_Store
+Thumbs.db
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# output folders
+dist/
+build/
