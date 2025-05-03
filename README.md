@@ -13,6 +13,6 @@ This is a private, production-ready tool that:
 * **JSON-ready:** Processed output ready for API consumption, dashboards or frontend logic
 * **Zero maintenance:** No manual work needed – works silently in the background
 
-### 🔒 This project is not open source
+### 🔒 This project is not open source... yet :)
 
 The logic, scripts, and infrastructure are proprietary and tailored for internal or commercial use only.
