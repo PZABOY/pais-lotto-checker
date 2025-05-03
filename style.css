@@ -198,3 +198,57 @@ footer a:hover {
   from { transform: scale(1); }
   to { transform: scale(1.04); }
 }
+
+
+.luck-section {
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 30px;
+  text-align: center;
+  box-shadow: 0 0 15px #ff00ff55, 0 0 25px #00ffff55;
+  animation: neonGlow 2s infinite alternate;
+}
+
+@keyframes neonGlow {
+  from {
+    box-shadow: 0 0 15px #ff00ff55, 0 0 25px #00ffff55;
+  }
+  to {
+    box-shadow: 0 0 20px #ff00ff88, 0 0 30px #00ffff88;
+  }
+}
+
+.birthday-input {
+  background: #333;
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.luck-button {
+  background: linear-gradient(45deg, #ff00ff, #00ffff);
+  border: none;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.luck-button:hover {
+  transform: scale(1.1);
+}
+
+.luck-result {
+  margin-top: 15px;
+  font-size: 16px;
+}
+
+.luck-note {
+  font-size: 12px;
+  color: #bbb;
+  margin-top: 10px;
+}

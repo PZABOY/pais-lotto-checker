@@ -12,32 +12,32 @@ const path = require('path');
   const page = await browser.newPage();
   const downloadPath = path.resolve(__dirname, '../data');
 
-  // ✅ שימוש תקני בפרוטוקול CDP להורדות
+  // ג�… ׳©׳™׳�׳•׳© ׳×׳§׳ ׳™ ׳‘׳₪׳¨׳•׳˜׳•׳§׳•׳� CDP ׳�׳”׳•׳¨׳“׳•׳×
   const client = await page.target().createCDPSession();
   await client.send('Page.setDownloadBehavior', {
     behavior: 'allow',
     downloadPath: downloadPath
   });
 
-  console.log('🔄 גולש לעמוד הארכיון...');
+  console.log('נ�”„ ׳’׳•׳�׳© ׳�׳¢׳�׳•׳“ ׳”׳�׳¨׳›׳™׳•׳�...');
   await page.goto('https://www.pais.co.il/lotto/archive.aspx', { waitUntil: 'networkidle2' });
 
-  console.log('📥 מנסה ללחוץ על כפתור ההורדה...');
+  console.log('נ�“¥ ׳�׳ ׳¡׳” ׳�׳�׳—׳•׳¥ ׳¢׳� ׳›׳₪׳×׳•׳¨ ׳”׳”׳•׳¨׳“׳”...');
   await page.evaluate(() => {
     const buttons = document.querySelectorAll('div.content_download_txt');
     const downloadBtn = Array.from(buttons).find(el =>
-      el.textContent.includes('הורדת תוצאות ההגרלה בפורמט CSV')
+      el.textContent.includes('׳”׳•׳¨׳“׳× ׳×׳•׳¦׳�׳•׳× ׳”׳”׳’׳¨׳�׳” ׳‘׳₪׳•׳¨׳�׳˜ CSV')
     );
     if (downloadBtn) {
       downloadBtn.click();
     } else {
-      console.error('❌ לא נמצא כפתור הורדה בדף');
+      console.error('ג�� ׳�׳� ׳ ׳�׳¦׳� ׳›׳₪׳×׳•׳¨ ׳”׳•׳¨׳“׳” ׳‘׳“׳£');
     }
   });
 
-  // ⏳ מחכה לסיום ההורדה (5 שניות)
+  // ג�³ ׳�׳—׳›׳” ׳�׳¡׳™׳•׳� ׳”׳”׳•׳¨׳“׳” (5 ׳©׳ ׳™׳•׳×)
   await new Promise(resolve => setTimeout(resolve, 5000));
 
   await browser.close();
-  console.log('🎉 הסתיים! בדוק את התיקייה data/');
+  console.log('נ��‰ ׳”׳¡׳×׳™׳™׳�! ׳‘׳“׳•׳§ ׳�׳× ׳”׳×׳™׳§׳™׳™׳” data/');
 })();
