@@ -1,0 +1,13 @@
+{
+  "name": "lotto-checker",
+  "version": "1.0.0",
+  "description": "Nightly Lotto Data Updater",
+  "main": "update.js",
+  "scripts": {
+    "start": "node update.js"
+  },
+  "dependencies": {
+    "puppeteer": "^21.3.8",
+    "csv-parser": "^3.0.0"
+  }
+}

@@ -1,13 +1,18 @@
+## 🧠 Pais Lotto Checker – Automated Data Fetching & Analysis Tool
 
-# Pais Lotto Checker
+This is a private, production-ready tool that:
 
-Node.js script that downloads the Israeli Lotto archive from Mifal HaPais once per day (at 23:59), parses the Excel data, and stores it as JSON for later validation of user numbers.
+* Automatically fetches Israel Lotto results nightly using headless browsing.
+* Converts and stores the results as structured JSON for instant use.
+* Powers user-facing validation, statistics, and trend exploration experiences.
 
-## Setup
+### 🎯 Highlights
 
-```bash
-npm install
-npm start
-```
+* **Fully automated:** Nightly cronjob via GitHub Actions
+* **Data-driven:** Real-time parsing of official results from [pais.co.il](https://www.pais.co.il)
+* **JSON-ready:** Processed output ready for API consumption, dashboards or frontend logic
+* **Zero maintenance:** No manual work needed – works silently in the background
 
-The job runs daily and saves data to `data/lotto.json`.
+### 🔒 This project is not open source
+
+The logic, scripts, and infrastructure are proprietary and tailored for internal or commercial use only.

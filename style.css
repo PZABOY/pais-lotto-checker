@@ -1,185 +1,139 @@
-/* === Global layout === */
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+/* === General Body Styling === */
 body {
   margin: 0;
   padding: 0;
-  background-color: #121212;
-  color: #f5f5f5;
-  font-family: 'Segoe UI', sans-serif;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-/* === Container box === */
-.container {
-  width: 90%;
-  max-width: 500px;
-  padding: 2em;
-  background-color: #1e1e1e;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.4);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-/* === Headings and text === */
-h1, .funny, label, #result, .share p, footer {
+  background-color: #f2f2f2;
+  color: #333;
+  font-family: 'Heebo', 'Roboto', sans-serif;
   text-align: center;
-  width: 100%;
 }
 
-h1 {
-  font-size: 1.8em;
-  margin-bottom: 0.3em;
+/* === Main Container === */
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 2rem;
+  animation: fadeIn 1s ease-in-out;
 }
 
+/* === Headers === */
+h1, h2 {
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+/* === Funny Text Section === */
 .funny {
-  font-size: 0.95em;
-  color: #bbb;
-  margin-bottom: 2em;
-  font-style: italic;
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.5;
 }
 
+/* === Cards: Form, Birthday, Share === */
+form, .birthday-section, .share {
+  background: white;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  animation: fadeInUp 0.8s ease;
+}
+
+/* === Label Styling === */
 label {
-  font-size: 0.9em;
-  color: #ccc;
-  margin-top: 1em;
-  margin-bottom: 0.3em;
+  display: block;
+  margin: 1rem 0 0.5rem;
+  font-weight: 500;
 }
 
-/* === Form structure === */
-form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-}
-
-/* === Lotto number input row === */
+/* === Row of Lotto Inputs === */
 .input-row {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 10px;
-  margin-top: 0.5em;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
 }
 
-.input-row input {
-  width: calc(100% / 3 - 10px);
-  max-width: 80px;
-  min-width: 55px;
-  padding: 0.7em;
-  font-size: 1em;
-  background-color: #2a2a2a;
-  color: #fff;
-  border: 1px solid #444;
-  border-radius: 5px;
+/* === Inputs (Numbers and Date) === */
+input[type="number"], input[type="date"] {
+  padding: 0.5rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
   text-align: center;
-  box-sizing: border-box;
+  font-size: 1rem;
 }
 
-@media (max-width: 480px) {
-  .input-row input {
-    width: calc(100% / 2.5 - 10px);
+/* === Force 6 numbers in one row on desktop === */
+@media (min-width: 768px) {
+  .input-row input[type="number"] {
+    width: calc(100% / 6 - 10px); /* 6 fields with spacing */
+  }
+
+  input[type="date"] {
+    width: 250px; /* Prevent wrapping */
+    display: block;
+    margin: 10px auto;
   }
 }
 
-/* === Strong number input === */
-input#strong {
-  margin-top: 0.5em;
-  width: 100%;
-  padding: 0.7em;
-  font-size: 1em;
-  background-color: #2a2a2a;
-  color: #fff;
-  border: 1px solid #444;
-  border-radius: 5px;
-  text-align: center;
-  box-sizing: border-box;
+/* === Responsive inputs for mobile === */
+@media (max-width: 767px) {
+  .input-row input[type="number"] {
+    width: 45%;
+  }
+
+  input[type="date"] {
+    width: 100%;
+  }
 }
 
-/* === Submit button === */
-button[type="submit"] {
-  margin-top: 1.5em;
-  background-color: #3498db;
+/* === Submit Button === */
+button {
+  margin-top: 1rem;
+  background-color: #0077cc;
   color: white;
-  padding: 0.8em;
-  font-size: 1em;
-  font-weight: bold;
+  padding: 0.6rem 1.2rem;
   border: none;
-  border-radius: 5px;
+  border-radius: 8px;
   cursor: pointer;
-  width: 100%;
-  transition: background 0.2s ease;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
 }
 
 button:hover {
-  background-color: #2980b9;
+  background-color: #005fa3;
 }
 
-/* === Result output === */
-#result {
-  margin-top: 1.5em;
-  font-size: 1.1em;
-  font-weight: 500;
-  color: #f1f1f1;
-}
-
-/* === Share section === */
-.share {
-  margin-top: 2em;
-  text-align: center;
-}
-
+/* === Share Icons Layout === */
 .share-icons {
   display: flex;
   justify-content: center;
-  gap: 1.5em;
-  margin-top: 1em;
+  gap: 1rem;
+  margin-top: 1rem;
 }
 
-.share-icons .icon {
-  width: 40px;
-  height: 40px;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #2a2a2a;
-  border-radius: 50%;
-  transition: transform 0.2s ease;
+.share-icons img {
+  width: 28px;
+  height: 28px;
+  transition: transform 0.2s;
 }
 
-.share-icons .icon img {
-  width: 22px;
-  height: 22px;
-  filter: invert(1);
-}
-
-.share-icons .icon:hover {
+.share-icons img:hover {
   transform: scale(1.2);
 }
 
-.icon.whatsapp { background-color: #25D366; }
-.icon.facebook { background-color: #1877F2; }
-.icon.twitter  { background-color: #1DA1F2; }
-.icon.copy     { background-color: #555; }
-
-/* === Footer === */
+/* === Footer Section === */
 footer {
-  margin-top: 2em;
-  padding: 1em;
-  font-size: 0.85em;
+  padding: 2rem 0;
+  font-size: 0.9rem;
   color: #777;
-  text-align: center;
-  border-top: 1px solid #333;
-  width: 100%;
 }
 
 footer a {
-  color: #ccc;
+  color: #0077cc;
   text-decoration: none;
 }
 
@@ -187,68 +141,25 @@ footer a:hover {
   text-decoration: underline;
 }
 
-/* === Match highlight animation (optional) === */
-.match {
-  color: #ffea00;
-  text-shadow: 0 0 8px #ffea00, 0 0 14px #f80, 0 0 18px #ff00cc;
-  animation: pulse 1.2s infinite alternate;
+/* === Notes Section === */
+.note {
+  font-style: italic;
+  font-size: 0.85rem;
 }
 
-@keyframes pulse {
-  from { transform: scale(1); }
-  to { transform: scale(1.04); }
+/* === Animations === */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
 
-
-.luck-section {
-  background-color: #1e1e1e;
-  padding: 20px;
-  border-radius: 10px;
-  margin-top: 30px;
-  text-align: center;
-  box-shadow: 0 0 15px #ff00ff55, 0 0 25px #00ffff55;
-  animation: neonGlow 2s infinite alternate;
-}
-
-@keyframes neonGlow {
+@keyframes fadeInUp {
   from {
-    box-shadow: 0 0 15px #ff00ff55, 0 0 25px #00ffff55;
+    opacity: 0;
+    transform: translateY(30px);
   }
   to {
-    box-shadow: 0 0 20px #ff00ff88, 0 0 30px #00ffff88;
+    opacity: 1;
+    transform: translateY(0);
   }
-}
-
-.birthday-input {
-  background: #333;
-  color: white;
-  border: none;
-  padding: 8px;
-  border-radius: 6px;
-  margin-bottom: 10px;
-}
-
-.luck-button {
-  background: linear-gradient(45deg, #ff00ff, #00ffff);
-  border: none;
-  color: white;
-  padding: 8px 15px;
-  border-radius: 6px;
-  cursor: pointer;
-  transition: transform 0.2s;
-}
-
-.luck-button:hover {
-  transform: scale(1.1);
-}
-
-.luck-result {
-  margin-top: 15px;
-  font-size: 16px;
-}
-
-.luck-note {
-  font-size: 12px;
-  color: #bbb;
-  margin-top: 10px;
 }

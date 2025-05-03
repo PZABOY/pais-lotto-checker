@@ -1,0 +1,34 @@
+name: Update Lotto Data Nightly
+
+on:
+  schedule:
+    - cron: '59 20 * * *'  # 23:59 Israel time
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run Puppeteer script
+        run: node update.js
+
+      - name: Commit & push updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/lotto.csv || true
+          git add data/lotto.json || true
+          git commit -m "🎯 Update Lotto Data - $(date +'%Y-%m-%d %H:%M')" || echo "No changes to commit"
+          git push

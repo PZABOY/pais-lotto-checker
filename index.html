@@ -1,18 +1,21 @@
 <!DOCTYPE html>
-<html lang="he" dir="rtl">
+<html lang="en" dir="ltr">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>בדוק אם היית מיליונר</title>
+  <title>Da Lotto checker</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <div class="container">
-    <h1>💰 המספרים שלך עלו בלוטו?</h1>
-    <p class="funny">אולי אתה מיליונר ולא ידעת. אולי רק הפסדת שוב. בוא נגלה 🎲</p>
+    <h1> “Money trees is the perfect place for shade / And that’s just how I feel”</h1>
+    <p class="funny">?נותנים בלוטו כל שלישי ושבת
+      <br>
+      ...תנו פה את המספרים שלכם ותגלו האם הם איי פעם זכו במשהו
+    </p>
 
     <form id="lotto-form">
-      <label>הכנס 6 מספרים בין 1–37:</label>
+      <label>הכניסו 6 מספרים בין 1–37:</label>
       <div class="input-row">
         <input type="number" min="1" max="37" required />
         <input type="number" min="1" max="37" required />
@@ -22,19 +25,21 @@
         <input type="number" min="1" max="37" required />
       </div>
 
-      <label>מספר חזק (1–7):</label>
+      <label> (1–7) תנו במספר החזק</label>
       <input type="number" id="strong" min="1" max="7" required />
-
-      <button type="submit">בדוק אותי 🧠</button>
+      <br>
+      <button type="submit">בואו נגלה</button>
     </form>
 
     <div id="result"></div>
 
     <div class="birthday-section">
-      <h2>🎂 מה המזל של תאריך הלידה שלך?</h2>
-      <label for="birthdayInput">הזן את התאריך שלך:</label>
+      <h2>!תאריך הלידה שלך שווה משהו? בואו נבדוק</h2>
+      <label for="birthdayInput">מלאו את תאריך הלידה</label>
+      <br>
       <input type="date" id="birthdayInput" />
-      <button type="button" id="checkLuckBtn">בדוק מזל 📊</button>
+      <br>
+      <button type="button" id="checkLuckBtn">!בדוק </button>
       <div id="luckResult"></div>
     </div>
 
@@ -65,7 +70,11 @@
       </a>
       – כל הזכויות שמורות.
     </p>
-    <p class="note">📊 הסטטיסטיקה מבוססת על מבנה ההגרלות החל מ־2009</p>
+    <p class="note"> הסטטיסטיקה מבוססת על מבנה ההגרלות החל מ־2009
+      <br>
+      אזהרה: משרד הרווחה והביטחון החברתי קובע כי הימורים עלולים להיות ממכרים <br>. ניתן ליצור קשר עם מוקד הרווחה למידע וסיוע של משרד הרווחה והביטחון החברתי שמספרו 118 (שיחה חינם) 24 שעות ביממה. <br>הזכייה תלויה במזל בלבד, ואינה קשורה לידע, ניסיון, יכולת או ריבוי משחקים.
+      
+    </p>
   </footer>
 
   <script>
