@@ -48,7 +48,7 @@ label {
   font-weight: 500;
 }
 
-/* === Row of Lotto Inputs === */
+/* === Lotto Input Layout === */
 .input-row {
   display: flex;
   flex-wrap: wrap;
@@ -64,25 +64,38 @@ input[type="number"], input[type="date"] {
   border: 1px solid #ccc;
   text-align: center;
   font-size: 1rem;
+  box-sizing: border-box;
 }
 
-/* === Force 6 numbers in one row on desktop === */
+/* === Force layout for desktop === */
 @media (min-width: 768px) {
   .input-row input[type="number"] {
-    width: calc(100% / 6 - 10px); /* 6 fields with spacing */
+    width: calc(100% / 6 - 10px); /* 6 fields in one row */
+  }
+
+  #strong {
+    width: 100%;
+    max-width: 120px;
+    display: block;
+    margin: 0 auto;
   }
 
   input[type="date"] {
-    width: 250px; /* Prevent wrapping */
+    width: 250px;
     display: block;
     margin: 10px auto;
   }
 }
 
-/* === Responsive inputs for mobile === */
+/* === Mobile layout === */
 @media (max-width: 767px) {
   .input-row input[type="number"] {
+    width: 30%; /* 3 per row with spacing */
+  }
+
+  #strong {
     width: 45%;
+    margin-top: 0.5rem;
   }
 
   input[type="date"] {
@@ -145,6 +158,27 @@ footer a:hover {
 .note {
   font-style: italic;
   font-size: 0.85rem;
+}
+
+/* === Result Styling === */
+#result, #luckResult {
+  margin-top: 1rem;
+  font-size: 1.05rem;
+  font-weight: bold;
+  line-height: 1.6;
+}
+
+.match {
+  color: green;
+}
+
+/* === Copy Link Icon === */
+.icon.copy img {
+  filter: grayscale(100%);
+}
+
+.icon.copy img:hover {
+  filter: grayscale(0%);
 }
 
 /* === Animations === */
