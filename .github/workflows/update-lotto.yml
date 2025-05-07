@@ -30,8 +30,8 @@ jobs:
             libgtk-3-0 \
             libnss3 \
             libxss1 \
-            libasound2 \
-            libgbm-dev
+            libgbm-dev \
+            libasound2t64
 
       - name: Run Puppeteer script
         run: node update.js
