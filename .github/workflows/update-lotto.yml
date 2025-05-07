@@ -21,6 +21,18 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Install Puppeteer dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            libx11-dev \
+            libxkbcommon-x11-0 \
+            libgtk-3-0 \
+            libnss3 \
+            libxss1 \
+            libasound2 \
+            libgbm-dev
+
       - name: Run Puppeteer script
         run: node update.js
 
@@ -31,4 +43,4 @@ jobs:
           git add data/lotto.csv || true
           git add data/lotto.json || true
           git commit -m "🎯 Update Lotto Data - $(date +'%Y-%m-%d %H:%M')" || echo "No changes to commit"
-          git push
+          git push || echo "Nothing to push"
