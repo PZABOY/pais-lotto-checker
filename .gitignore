@@ -1,22 +1,24 @@
-# node dependencies
+# === Node dependencies ===
 node_modules/
 
-# data files that are generated or too large
-lotto.json
-Lotto.csv
+# === Generated data files ===
+data/lotto.json
+data/Lotto.csv
 
-# VS Code folder settings (optional)
+# === IDE & editor settings ===
 .vscode/
+*.sublime-workspace
+*.sublime-project
 
-# system files
+# === System & OS files ===
 .DS_Store
 Thumbs.db
 
-# logs
+# === Log files ===
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# output folders
+# === Build / output directories ===
 dist/
 build/

@@ -40,14 +40,15 @@ h1, h2 {
   line-height: 1.5;
 }
 
-/* === Cards: Form, Birthday, Share === */
-form, .birthday-section, .share {
+/* === Cards: Form, Birthday, Share, Stats === */
+form, .birthday-section, .share, .stats-section {
   background: white;
   padding: 1.5rem;
   margin-bottom: 2rem;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
   animation: fadeInUp 0.8s ease;
+  overflow-x: auto;
 }
 
 /* === Label Styling === */
@@ -76,10 +77,41 @@ input[type="number"], input[type="date"] {
   box-sizing: border-box;
 }
 
+/* === Table Styling === */
+.stats-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  font-size: 1rem;
+  min-width: 300px;
+  direction: rtl;
+}
+
+.stats-table th,
+.stats-table td {
+  border: 1px solid #ccc;
+  padding: 0.6rem;
+  text-align: center;
+}
+
+.stats-table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.stats-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.stats-table tbody {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
 /* === Force layout for desktop === */
 @media (min-width: 768px) {
   .input-row input[type="number"] {
-    width: calc(100% / 6 - 10px); /* 6 fields in one row */
+    width: calc(100% / 6 - 10px);
   }
 
   #strong {
@@ -99,7 +131,7 @@ input[type="number"], input[type="date"] {
 /* === Mobile layout === */
 @media (max-width: 767px) {
   .input-row input[type="number"] {
-    width: 30%; /* 3 per row with spacing */
+    width: 30%;
   }
 
   #strong {
@@ -109,6 +141,10 @@ input[type="number"], input[type="date"] {
 
   input[type="date"] {
     width: 100%;
+  }
+
+  .stats-table {
+    font-size: 0.9rem;
   }
 }
 
@@ -170,15 +206,19 @@ footer a:hover {
 }
 
 /* === Result Styling === */
-#result, #luckResult {
+.result-box {
   margin-top: 1rem;
   font-size: 1.05rem;
   font-weight: bold;
   line-height: 1.6;
+  padding: 0.5rem;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
 }
 
 .match {
   color: green;
+  background-color: rgba(0, 128, 0, 0.1);
 }
 
 /* === Copy Link Icon === */
@@ -204,5 +244,128 @@ footer a:hover {
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+.container,
+form,
+.birthday-section,
+.share,
+.stats-section,
+footer {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.container.visible,
+form.visible,
+.birthday-section.visible,
+.share.visible,
+.stats-section.visible,
+footer.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* === Hamburger Menu Styling === */
+.nav-bar {
+  background-color: #111;
+  padding: 0.5rem 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-toggle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 1100;
+}
+
+.nav-toggle:focus {
+  outline: 2px solid #0077cc;
+  outline-offset: 2px;
+}
+
+.nav-toggle span {
+  height: 3px;
+  background: white;
+  margin: 4px 0;
+  width: 25px;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+.nav-toggle.active span:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.nav-toggle.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.nav-toggle.active span:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+
+.nav-bar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  gap: 1.5rem;
+}
+
+.nav-bar li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.4rem 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.nav-bar li a:hover,
+.nav-bar li a:focus {
+  background-color: #333;
+  border-radius: 6px;
+  outline: 2px solid #0077cc;
+  outline-offset: 2px;
+}
+
+/* === Ensure nav-links class is properly handled === */
+.nav-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 767px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #111;
+    padding-bottom: 1rem;
+    margin-top: 0.5rem;
+  }
+  
+  .nav-links.active {
+    display: flex;
+  }
+}
+
+@media (min-width: 768px) {
+  .nav-toggle {
+    display: none;
   }
 }

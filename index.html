@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="he" dir="rtl">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -16,20 +16,30 @@
   <script defer src="script.js"></script>
 </head>
 <body>
+  <!-- Navigation Bar -->
+  <nav class="nav-bar">
+    <div class="nav-toggle" id="navToggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#statistics">Top-10</a></li>
+      <li><a href="#luckResult">?יום הולדת שמח</a></li>
+      <li><a href="#lotto-form">בדקו את המספרים שלכם</a></li>
+    </ul>
+  </nav>
+
   <div class="container">
-    <img 
-    src="assets/hero.png" class="header-image"/>    
-    <!-- User input: Lotto numbers -->
+    <img src="assets/hero.png" class="header-image" alt="Lotto Header" />    
     <p class="funny">
-      ?נותנים בלוטו כל שלישי ושבת
-      <br>
-      ...תנו פה את המספרים שלכם ותגלו האם הם איי פעם זכו במשהו
+      ?נותנים בלוטו כל שלישי ושבת<br>
+      ...תנו פה את המספרים שלכם ותגלו האם הם אי פעם זכו במשהו
     </p>
 
     <form id="lotto-form">
       <label>הכניסו 6 מספרים בין 1–37:</label>
       <div class="input-row">
-        <!-- Six lotto number inputs -->
         <input type="number" min="1" max="37" required />
         <input type="number" min="1" max="37" required />
         <input type="number" min="1" max="37" required />
@@ -37,48 +47,42 @@
         <input type="number" min="1" max="37" required />
         <input type="number" min="1" max="37" required />
       </div>
-
-      <!-- Strong number input -->
       <label>(1–7) תנו במספר החזק</label>
       <input type="number" id="strong" min="1" max="7" required />
       <br>
       <button type="submit">בואו נגלה</button>
     </form>
 
-    <!-- Display lotto results -->
-    <div id="result"></div>
+    <div id="result" class="result-box"></div>
 
-    <!-- Birthday luck checker -->
     <div class="birthday-section">
       <h2>!תאריך הלידה שלך שווה משהו? בואו נבדוק</h2>
       <label for="birthdayInput">מלאו את תאריך הלידה</label>
       <br>
       <input type="date" id="birthdayInput" />
       <br>
-      <button type="button" id="checkLuckBtn">!בדקו </button>
-      <div id="luckResult"></div>
+      <button type="button" id="checkLuckBtn">!בדקו</button>
+      <div id="luckResult" class="result-box"></div>
     </div>
 
-    <!-- Social sharing buttons -->
+    <!-- Statistics Section -->
+    <div id="statistics" class="stats-section">
+      <h2>📊 טבלת סטטיסטיקה</h2>
+      <!-- Statistics will be loaded dynamically -->
+    </div>
+
     <div class="share">
-      <p>אהבת? שתף עם חברים:</p>
+      <p>אהבתם? תנו בשיתוף!:</p>
       <div class="share-icons">
-        <!-- WhatsApp -->
-        <a href="https://wa.me/?text=בדקו%20אם%20זכיתם%20בלוטו!%20https://your-site.com" class="icon whatsapp" title="שיתוף ב־WhatsApp" target="_blank">
+        <a href="https://wa.me/?text=בדקו%20אם%20זכיתם%20בלוטו!%20https://your-site.com" class="icon whatsapp" title="שיתוף ב־WhatsApp" target="_blank" rel="noopener">
           <img src="https://cdn.jsdelivr.net/npm/simple-icons/icons/whatsapp.svg" alt="WhatsApp" />
         </a>
-
-        <!-- Facebook -->
-        <a href="https://www.facebook.com/sharer/sharer.php?u=https://your-site.com" class="icon facebook" title="שיתוף בפייסבוק" target="_blank">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https://your-site.com" class="icon facebook" title="שיתוף בפייסבוק" target="_blank" rel="noopener">
           <img src="https://cdn.jsdelivr.net/npm/simple-icons/icons/facebook.svg" alt="Facebook" />
         </a>
-
-        <!-- Twitter / X -->
-        <a href="https://twitter.com/intent/tweet?text=בדקו+אם+זכיתם+בלוטו!&url=https://your-site.com" class="icon twitter" title="שיתוף בטוויטר" target="_blank">
+        <a href="https://twitter.com/intent/tweet?text=בדקו+אם+זכיתם+בלוטו!&url=https://your-site.com" class="icon twitter" title="שיתוף בטוויטר" target="_blank" rel="noopener">
           <img src="https://cdn.jsdelivr.net/npm/simple-icons/icons/x.svg" alt="Twitter" />
         </a>
-
-        <!-- Copy link button -->
         <a href="#" class="icon copy" title="העתק קישור" id="copyBtn">
           <img src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/icons/link.svg" alt="Copy" />
         </a>
@@ -86,7 +90,6 @@
     </div>
   </div>
 
-  <!-- Footer -->
   <footer>
     <p>
       &copy; <span id="year"></span>
@@ -95,8 +98,6 @@
       </a>
       – כל הזכויות שמורות.
     </p>
-
-    <!-- Disclaimer -->
     <p class="note">
       הסטטיסטיקה מבוססת על מבנה ההגרלות החל מ־2009<br>
       אזהרה: משרד הרווחה והביטחון החברתי קובע כי הימורים עלולים להיות ממכרים<br>

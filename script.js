@@ -19,6 +19,11 @@ if (typeof window === "undefined") {
   const csvPath = path.join(__dirname, "data", "lotto.csv");
   const jsonPath = path.join(__dirname, "data", "lotto.json");
 
+  // Ensure data directory exists
+  if (!fs.existsSync(path.join(__dirname, "data"))) {
+    fs.mkdirSync(path.join(__dirname, "data"));
+  }
+
   async function updateData() {
     try {
       const response = await axios.get(csvUrl, { responseType: "stream" });
@@ -37,7 +42,7 @@ if (typeof window === "undefined") {
             if (rowArray.length >= 9) output.push(rowArray);
           })
           .on("end", () => {
-            fs.writeFileSync(jsonPath, JSON.stringify(output, null, 2), "utf8");
+            fs.writeFileSync(jsonPath, JSON.stringify({ results: output }, null, 2), "utf8");
             console.log(`✅ Converted ${output.length} rows from lotto.csv to lotto.json`);
           });
       });
@@ -51,31 +56,148 @@ if (typeof window === "undefined") {
 }
 
 // 🌐 Client-side fetch & processing
-fetch("data/lotto.json")
-  .then((r) => r.json())
-  .then((data) => {
-    rawLottoData = (data.results || []).filter(draw => typeof draw === 'object' && draw["1"]);
-    console.log("✅ Loaded:", rawLottoData.length, "draws");
+document.addEventListener("DOMContentLoaded", () => {
+  fetch("data/lotto.json")
+    .then((r) => r.json())
+    .then((data) => {
+      rawLottoData = (data.results || []).filter(draw => typeof draw === 'object' && draw["1"]);
+      console.log("✅ Loaded:", rawLottoData.length, "draws");
 
-    lottoNumbersSince2009 = rawLottoData
-      .filter((draw) => {
-        const dateStr = draw["תאריך"];
-        const year = new Date(dateStr).getFullYear();
-        return year >= 2009;
-      })
-      .map((draw) => [draw["1"], draw["2"], draw["3"], draw["4"], draw["5"], draw["6"]].map((n) => parseInt(n, 10)));
+      lottoNumbersSince2009 = rawLottoData
+        .filter((draw) => {
+          if (!draw["תאריך"]) return false;
+          const dateStr = draw["תאריך"];
+          try {
+            const year = new Date(dateStr).getFullYear();
+            return year >= 2009 && !isNaN(year);
+          } catch (e) {
+            return false;
+          }
+        })
+        .map((draw) => {
+          return ["1", "2", "3", "4", "5", "6"]
+            .map(key => draw[key])
+            .filter(n => n !== undefined)
+            .map(n => parseInt(n, 10))
+            .filter(n => !isNaN(n));
+        })
+        .filter(numbers => numbers.length === 6);
 
-    console.log("📆 From 2009:", lottoNumbersSince2009.length, "draws");
-  })
-  .catch((err) => {
-    console.error("❌ Failed to load lotto data:", err);
-  });
+      console.log("📆 From 2009:", lottoNumbersSince2009.length, "draws");
+      
+      // Call statistics loading when data is ready
+      loadStatistics(data);
+    })
+    .catch((err) => {
+      console.error("❌ Failed to load lotto data:", err);
+      document.getElementById("statistics").innerHTML = "⚠️ Unable to load statistics.";
+    });
+
+  // Form submission handler
+  const form = document.getElementById("lotto-form");
+  if (form) {
+    form.addEventListener("submit", function (e) {
+      e.preventDefault();
+      checkMyNumbers();
+    });
+  }
+
+  // Birthday check button handler
+  const checkLuckBtn = document.getElementById("checkLuckBtn");
+  if (checkLuckBtn) {
+    checkLuckBtn.addEventListener("click", () => {
+      displayLuck();
+    });
+  }
+
+  // Copy link button handler
+  const copyBtn = document.getElementById("copyBtn");
+  if (copyBtn) {
+    copyBtn.addEventListener("click", () => {
+      navigator.clipboard.writeText(window.location.href).then(() => {
+        alert("📎 הקישור הועתק!");
+      });
+    });
+  }
+
+  // Current year for footer
+  const yearSpan = document.getElementById("year");
+  if (yearSpan) {
+    yearSpan.textContent = new Date().getFullYear();
+  }
+  
+  // Smooth scrolling animation
+  setTimeout(() => {
+    const elements = document.querySelectorAll('.container, form, .birthday-section, .share, .stats-section, footer');
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.1 });
+
+    elements.forEach(el => observer.observe(el));
+  }, 100);
+
+  // Navigation menu functionality
+  const navToggle = document.getElementById("navToggle");
+  const navLinks = document.getElementById("navLinks");
+
+  if (navToggle && navLinks) {
+    // Initialize navigation state based on screen size
+    function setNavState() {
+      if (window.innerWidth > 767) {
+        navLinks.classList.remove("active");
+        navToggle.classList.remove("active");
+        navToggle.setAttribute("aria-expanded", "false");
+      } else {
+        navLinks.classList.remove("active");
+        navToggle.classList.remove("active");
+        navToggle.setAttribute("aria-expanded", "false");
+      }
+    }
+
+    // Set initial state
+    setNavState();
+
+    // Toggle menu when hamburger is clicked
+    navToggle.addEventListener("click", () => {
+      const isOpen = navLinks.classList.contains("active");
+      navLinks.classList.toggle("active", !isOpen);
+      navToggle.classList.toggle("active", !isOpen);
+      navToggle.setAttribute("aria-expanded", !isOpen);
+    });
+
+    // Handle resize events to ensure correct display
+    window.addEventListener("resize", setNavState);
+
+    // Close mobile menu when a link is clicked
+    const links = navLinks.querySelectorAll("a");
+    links.forEach((link) => {
+      link.addEventListener("click", () => {
+        if (window.innerWidth <= 767) {
+          navLinks.classList.remove("active");
+          navToggle.classList.remove("active");
+          navToggle.setAttribute("aria-expanded", "false");
+        }
+      });
+    });
+  } else {
+    console.warn("Navigation elements not found.");
+  }
+});
 
 // 🧠 Check user's numbers for a match
 function checkMyNumbers() {
   const inputs = Array.from(document.querySelectorAll(".input-row input")).map(i => parseInt(i.value.trim(), 10));
   const strong = parseInt(document.getElementById("strong").value.trim(), 10);
   const resultDiv = document.getElementById("result");
+
+  if (!resultDiv) {
+    console.error("Result div not found");
+    return;
+  }
 
   if (
     inputs.length !== 6 ||
@@ -90,8 +212,16 @@ function checkMyNumbers() {
   const match = rawLottoData.find(draw => {
     if (!draw || typeof draw !== 'object') return false;
 
-    const drawNums = [draw["1"], draw["2"], draw["3"], draw["4"], draw["5"], draw["6"]].map(n => parseInt(n, 10));
+    const drawNums = ["1", "2", "3", "4", "5", "6"]
+      .map(key => draw[key])
+      .filter(n => n !== undefined)
+      .map(n => parseInt(n, 10))
+      .filter(n => !isNaN(n));
+      
+    if (drawNums.length !== 6) return false;
+    
     const drawStrong = parseInt(draw["המספר החזק/נוסף"], 10);
+    if (isNaN(drawStrong)) return false;
 
     const allExist = inputs.every(n => drawNums.includes(n));
     return allExist && drawStrong === strong;
@@ -111,63 +241,132 @@ function displayLuck() {
   const userBirthday = document.getElementById("birthdayInput").value;
   const resultBox = document.getElementById("luckResult");
 
+  if (!resultBox) {
+    console.error("Luck result box not found");
+    return;
+  }
+
   if (!userBirthday || lottoNumbersSince2009.length === 0) {
     resultBox.textContent = "⚠️ יש להזין תאריך תקף.";
     return;
   }
 
-  const birthdayDate = new Date(userBirthday);
-  const day = birthdayDate.getDate();
-  const month = birthdayDate.getMonth() + 1;
+  try {
+    const birthdayDate = new Date(userBirthday);
+    if (isNaN(birthdayDate.getTime())) {
+      resultBox.textContent = "⚠️ תאריך לא תקין.";
+      return;
+    }
+    
+    const day = birthdayDate.getDate();
+    const month = birthdayDate.getMonth() + 1;
 
-  const dateNumbers = [day, month];
-  const flatLottoNumbers = lottoNumbersSince2009.flat();
-  const totalDrawn = flatLottoNumbers.length;
+    const dateNumbers = [day, month].filter(n => n <= 37); // Only include numbers that can appear in lotto
+    const flatLottoNumbers = lottoNumbersSince2009.flat();
+    const totalDrawn = flatLottoNumbers.length;
 
-  const breakdown = dateNumbers.map((num) => {
-    const count = flatLottoNumbers.filter((n) => n === num).length;
-    const percentage = ((count / totalDrawn) * 100).toFixed(2);
-    return { num, count, percentage };
-  });
+    if (totalDrawn === 0) {
+      resultBox.textContent = "⚠️ אין מספיק נתונים.";
+      return;
+    }
 
-  const resultHTML = breakdown
-    .map(
-      (entry) =>
-        `המספר <b>${entry.num}</b> הופיע <b>${entry.count}</b> פעמים (<b>${entry.percentage}%</b>)`
-    )
-    .join("<br>");
+    const breakdown = dateNumbers.map((num) => {
+      const count = flatLottoNumbers.filter((n) => n === num).length;
+      const percentage = ((count / totalDrawn) * 100).toFixed(2);
+      return { num, count, percentage };
+    });
 
-  resultBox.innerHTML = ` <br>${resultHTML}<br><small>* מבוסס על הגרלות מ־2009</small>`;
+    const resultHTML = breakdown
+      .map(
+        (entry) =>
+          `המספר <b>${entry.num}</b> הופיע <b>${entry.count}</b> פעמים (<b>${entry.percentage}%</b>)`
+      )
+      .join("<br>");
+
+    resultBox.innerHTML = ` <br>${resultHTML}<br><small>* מבוסס על הגרלות מ־2009</small>`;
+  } catch (err) {
+    console.error("Error in displayLuck:", err);
+    resultBox.textContent = "⚠️ שגיאה בחישוב הנתונים.";
+  }
 }
 
-// ⚙️ Client-side event handlers
-document.addEventListener("DOMContentLoaded", () => {
-  const form = document.getElementById("lotto-form");
-  if (form) {
-    form.addEventListener("submit", function (e) {
-      e.preventDefault();
-      checkMyNumbers();
-    });
-  }
+// Statistics loading function
+function loadStatistics(data) {
+  try {
+    const draws = (data.results || []).filter(draw => typeof draw === 'object' && draw["1"]);
+    const statsDiv = document.getElementById("statistics");
+    
+    if (!statsDiv) {
+      console.error("Statistics div not found");
+      return;
+    }
 
-  const checkLuckBtn = document.getElementById("checkLuckBtn");
-  if (checkLuckBtn) {
-    checkLuckBtn.addEventListener("click", () => {
-      if (typeof displayLuck === "function") displayLuck();
-    });
-  }
+    const numberFreq = new Map();
+    const strongFreq = new Map();
+    let totalDraws = 0;
 
-  const copyBtn = document.getElementById("copyBtn");
-  if (copyBtn) {
-    copyBtn.addEventListener("click", () => {
-      navigator.clipboard.writeText(window.location.href).then(() => {
-        alert("📎 הקישור הועתק!");
-      });
+    draws.forEach(draw => {
+      let validRegularNumbers = 0;
+      for (let i = 1; i <= 6; i++) {
+        const num = parseInt(draw[i], 10);
+        if (!isNaN(num)) {
+          numberFreq.set(num, (numberFreq.get(num) || 0) + 1);
+          validRegularNumbers++;
+        }
+      }
+      
+      // Only count this as a valid draw if we found all 6 regular numbers
+      if (validRegularNumbers === 6) {
+        const strong = parseInt(draw["המספר החזק/נוסף"], 10);
+        if (!isNaN(strong)) strongFreq.set(strong, (strongFreq.get(strong) || 0) + 1);
+        totalDraws++;
+      }
     });
-  }
 
-  const yearSpan = document.getElementById("year");
-  if (yearSpan) {
-    yearSpan.textContent = new Date().getFullYear();
+    if (totalDraws === 0) {
+      statsDiv.innerHTML = "⚠️ No valid draws found.";
+      return;
+    }
+
+    const topNumbers = Array.from(numberFreq.entries())
+      .map(([num, count]) => ({ num, count, percent: ((count / (totalDraws * 6)) * 100).toFixed(2) }))
+      .sort((a, b) => b.count - a.count)
+      .slice(0, 10);
+
+    const topStrong = Array.from(strongFreq.entries())
+      .map(([num, count]) => ({ num, count, percent: ((count / totalDraws) * 100).toFixed(2) }))
+      .sort((a, b) => b.count - a.count)
+      .slice(0, 10);
+
+    const table = (title, data, isStrong = false) => `
+      <section class="stats-section">
+        <h2>${title}</h2>
+        <table class="stats-table">
+          <thead>
+            <tr>
+              <th>אחוזים</th>
+              <th>כמות הופעות</th>
+              <th>${isStrong ? 'מספר חזק' : 'מספר רגיל'}</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${data.map(row => `
+              <tr>
+                <td>${row.percent}%</td>
+                <td>${row.count}</td>
+                <td>${row.num}</td>
+              </tr>`).join("")}
+          </tbody>
+        </table>
+      </section>
+    `;
+
+    statsDiv.innerHTML = table("Top 10 Regular Numbers", topNumbers) + table("Top 10 Strong Numbers", topStrong, true);
+  } catch (err) {
+    console.error("📉 Error loading statistics:", err);
+    const statsDiv = document.getElementById("statistics");
+    if (statsDiv) {
+      statsDiv.innerHTML = "⚠️ Unable to load statistics.";
+    }
   }
-});
+}

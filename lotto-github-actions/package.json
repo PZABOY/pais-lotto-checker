@@ -1,13 +1,35 @@
 {
   "name": "lotto-checker",
   "version": "1.0.0",
-  "description": "Nightly Lotto Data Updater",
+  "description": "Nightly automation tool to fetch and convert Lotto draw data from the Israeli national lottery website.",
   "main": "update.js",
   "scripts": {
-    "start": "node update.js"
+    "start": "node update.js",
+    "rebuild": "node tools/rebuildJsonFromArchive.js",
+    "download-direct": "node tools/directDownloader.js",
+    "convert": "node tools/convertCsvToJson.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-user/pais-lotto-checker"
+  },
+  "keywords": [
+    "lotto",
+    "pais",
+    "israel",
+    "csv",
+    "json",
+    "puppeteer",
+    "automation"
+  ],
+  "author": "Eliav Mendelsohn",
+  "license": "MIT",
   "dependencies": {
-    "puppeteer": "^21.3.8",
-    "csv-parser": "^3.0.0"
+    "axios": "^1.6.7",
+    "cheerio": "^1.0.0-rc.12",
+    "csv-parser": "^3.0.0",
+    "iconv-lite": "^0.6.3",
+    "node-cron": "^3.0.2",
+    "puppeteer": "^21.3.8"
   }
 }
